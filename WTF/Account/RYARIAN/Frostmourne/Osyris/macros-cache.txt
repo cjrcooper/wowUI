@@ -1,0 +1,68 @@
+MACRO 16777250 "Beacon" Ability_Paladin_BeaconofLight
+/tar valithria
+/cast Beacon of Light
+END
+MACRO 16777249 "Clear" INV_Misc_QuestionMark
+/clearfocus
+END
+MACRO 16777236 "Flash" Spell_Holy_FlashHeal
+/cast [target=mouseover] Flash of Light
+END
+MACRO 16777248 "Focus" Ability_Hunter_MasterMarksman
+/focus target
+END
+MACRO 16777243 "Free" Spell_Holy_SealOfValor
+/cast [target=mouseover] Hand of Freedom
+END
+MACRO 16777226 "GLOVE MACRO" Ability_Druid_Dash
+/run u=UIErrorsFrame u:Hide()
+/run SetCVar("Sound_EnableSFX","0")
+#show Mind Flay
+/use 13
+/use 10
+/cast Mind Flay
+/run SetCVar("Sound_EnableSFX","1")
+/run UIErrorsFrame:Clear()
+/run u:Clear() u:Show()
+END
+MACRO 16777242 "HOP" Spell_Holy_SealOfProtection
+/cast [target=mouseover] Hand of Protection
+END
+MACRO 16777237 "Light" Spell_Holy_HolyBolt
+/cast [target=mouseover] Holy Light
+END
+MACRO 16777251 "Light" Spell_Holy_HolyBolt
+/tar valithria 
+/cast Holy Light
+END
+MACRO 16777238 "LOH" Spell_Holy_LayOnHands
+/cast [target=mouseover] Lay on Hands
+END
+MACRO 16777221 "MDISPEL" Spell_Holy_LightsGrace
+#showtooltip Mass Dispel
+/cast !Mass Dispel
+END
+MACRO 16777234 "Penance" Spell_Holy_Penance
+/cast [help,target=target] Penance
+/cast [target=player] Penance
+END
+MACRO 16777239 "Rez" Spell_Holy_Resurrection
+/cast [target=mouseover] Redemption
+END
+MACRO 16777241 "Sac" Spell_Holy_SealOfSacrifice
+/cast [target=mouseover] Hand of Sacrifice
+END
+MACRO 16777240 "Salv" Spell_Holy_SealOfSalvation
+/cast [target=mouseover] Hand of Salvation
+END
+MACRO 16777235 "SG" Ability_BullRush
+/use Battlemaster's Bravery
+/use Fel Healthstone
+END
+MACRO 16777233 "Shield" Spell_Holy_PowerWordShield
+/cast [help,target=target] Power Word: Shield
+/cast [target=player] Power Word: Shield
+END
+MACRO 16777244 "Shock" Spell_Holy_SearingLight
+/cast [target=mouseover] Holy Shock
+END

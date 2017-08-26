@@ -1,0 +1,63 @@
+VER 3 0000000000000013 " " "SPELL_HOLY_SEALOFSACRIFICE"
+/script unitId("boss1")
+END
+VER 3 000000000000000C "  " "Spell_Holy_DivineIllumination"
+#showtooltip Divine Illumination
+/Use Divine Illumination
+/Use Figurine - Sapphire Owl
+END
+VER 3 0000000000000014 "  " "SPELL_HOLY_POWERWORDSHIELD"
+/cast [@Zekia] Power Word: Shield
+END
+VER 3 0000000000000010 "    " "Spell_Arcane_Arcane04"
+#showtooltip Arcane Torrent
+/use Arcane Torrent
+/use Sliver of Pure Ice
+END
+VER 3 000000000000000A " LOH" "SPELL_HOLY_LAYONHANDS"
+/cast Lay on Hands
+/say Lay on Hands used!!
+END
+VER 3 0000000000000001 "1" "Spell_Holy_SealOfProtection"
+/script local n=UnitName("hbmouseover");if GetSpellCooldown(Hand of Protection)==0 then SendChatMessage("Hand of Protection on "..n,"SAY") SendChatMessage("Let the Light Protect You!!","WHISPER",nil,n) end;
+/cast [target=hbmouseover] Hand of Protection
+END
+VER 3 000000000000000E "10 DBM" "255140"
+/dbm pull 10
+END
+VER 3 0000000000000003 "5 DBM" "INV_MISC_QUESTIONMARK"
+/DBM PULL 5
+END
+VER 3 0000000000000007 "Beacon" "Ability_Paladin_BeaconofLight"
+#showtooltip Beacon of Light
+/cast Beacon of Light
+/dbm timer Beacon of Light 60
+END
+VER 3 000000000000000B "Beacon heals" "Spell_Holy_Serendipity"
+/Target Valithria Dreamwalker
+/cast Beacon of Light
+END
+VER 3 000000000000000F "Decursive" "INV_Misc_QuestionMark"
+/script Dcr:Println('No spell available')
+END
+VER 3 0000000000000002 "ds" "INV_Misc_QuestionMark"
+/tar Nighthuntress Syrenne
+END
+VER 3 0000000000000009 "wm 1" "1397648"
+/wm 1
+END
+VER 3 0000000000000016 "wm 2" "1397649"
+/wm 2
+END
+VER 3 0000000000000017 "wm 3" "1397651"
+/wm 3
+END
+VER 3 0000000000000018 "wm 4" "1397652"
+/wm 4
+END
+VER 3 0000000000000019 "wm 5" "1397653"
+/wm 5
+END
+VER 3 000000000000001A "wm Clear" "840662"
+/readycheck
+END

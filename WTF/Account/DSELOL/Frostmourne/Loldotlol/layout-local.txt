@@ -1,0 +1,15 @@
+Version: 1
+Frame: ChatFrame2
+FrameLevel: 5
+Anchor: BOTTOMLEFT
+X: 32
+Y: 135
+W: 430
+H: 96
+Frame: AtlasLootDefaultFrame
+FrameLevel: 23
+Anchor: TOPRIGHT
+X: -52
+Y: -8
+W: 600
+H: 690

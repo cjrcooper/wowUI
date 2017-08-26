@@ -1,0 +1,17 @@
+
+smmConfig = {
+	["profiles"] = {
+		["Default"] = {
+			["mapPosition"] = {
+				928.0000166893003, -- [1]
+				671.9999594688421, -- [2]
+			},
+		},
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["skins"] = false,
+			["gui"] = false,
+		},
+	},
+}

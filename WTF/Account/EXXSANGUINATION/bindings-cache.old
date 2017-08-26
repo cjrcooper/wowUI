@@ -1,0 +1,84 @@
+BINDINGMODE 0
+bind BUTTON3 NONE
+bind A STRAFELEFT
+bind LEFT STRAFELEFT
+bind D STRAFERIGHT
+bind RIGHT STRAFERIGHT
+bind Q PREVIOUSACTIONPAGE
+bind E NONE
+bind NUMPAD0 NONE
+bind X OPENALLBAGS
+bind NUMLOCK NONE
+bind BUTTON4 NONE
+bind DELETE TOGGLEAUTORUN
+bind PAGEUP NONE
+bind PAGEDOWN NONE
+bind R NEXTACTIONPAGE
+bind SHIFT-R NONE
+bind 1 ACTIONBUTTON2
+bind 2 ACTIONBUTTON3
+bind 3 ACTIONBUTTON4
+bind 4 ACTIONBUTTON5
+bind 5 ACTIONBUTTON6
+bind 6 ACTIONBUTTON7
+bind 7 ACTIONBUTTON8
+bind 8 ACTIONBUTTON9
+bind 9 ACTIONBUTTON10
+bind 0 ACTIONBUTTON11
+bind - CLICK BT4Button53:LeftButton
+bind = CLICK BT4Button54:LeftButton
+bind CTRL-1 CLICK BT4Button50:LeftButton
+bind CTRL-2 CLICK BT4Button51:LeftButton
+bind CTRL-3 CLICK BT4Button52:LeftButton
+bind CTRL-4 NONE
+bind CTRL-5 NONE
+bind SHIFT-1 CLICK BT4Button14:LeftButton
+bind SHIFT-2 CLICK BT4Button15:LeftButton
+bind SHIFT-3 CLICK BT4Button16:LeftButton
+bind SHIFT-4 CLICK BT4Button17:LeftButton
+bind SHIFT-5 CLICK BT4Button18:LeftButton
+bind SHIFT-6 NONE
+bind SHIFT-UP NONE
+bind SHIFT-DOWN NONE
+bind F1 CLICK BT4PetButton1:LeftButton
+bind F2 CLICK BT4PetButton2:LeftButton
+bind F3 CLICK BT4PetButton3:LeftButton
+bind F4 CLICK BT4PetButton4:LeftButton
+bind F5 CLICK BT4PetButton5:LeftButton
+bind F NONE
+bind V TOGGLEWORLDMAP
+bind F8 CLICK BT4PetButton8:LeftButton
+bind F9 CLICK BT4PetButton9:LeftButton
+bind F10 CLICK BT4PetButton10:LeftButton
+bind F11 NONE
+bind F12 NONE
+bind SHIFT-SPACE JUMP
+bind BUTTON5 NONE
+bind NUMPADDECIMAL NONE
+bind ' NONE
+bind , NONE
+bind ` CLICK BT4Button1:LeftButton
+bind ~ NONE
+bind F6 CLICK BT4PetButton6:LeftButton
+bind . NONE
+bind ; NONE
+bind [ PAWN_COMPARE_LEFT
+bind F7 CLICK BT4PetButton7:LeftButton
+bind NUMPADMULTIPLY NONE
+bind ] PAWN_COMPARE_RIGHT
+bind _ NONE
+bind + NONE
+bind < NONE
+bind > NONE
+bind ALT-V NAMEPLATES
+bind SHIFT-` CLICK BT4Button13:LeftButton
+bind CTRL-` CLICK BT4Button49:LeftButton
+bind ALT-1 CLICK BT4StanceButton1:LeftButton
+bind ALT-2 CLICK BT4StanceButton2:LeftButton
+bind ALT-3 CLICK BT4StanceButton3:LeftButton
+bind ALT-4 CLICK BT4StanceButton4:LeftButton
+bind ALT-5 CLICK BT4StanceButton5:LeftButton
+bind ALT-6 CLICK BT4StanceButton6:LeftButton
+bind ALT-7 CLICK BT4StanceButton7:LeftButton
+bind ALT-8 CLICK BT4StanceButton8:LeftButton
+bind ALT-9 CLICK BT4StanceButton9:LeftButton

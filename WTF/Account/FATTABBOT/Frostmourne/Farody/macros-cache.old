@@ -1,0 +1,4 @@
+MACRO 16777217 "Frostenageg" Ability_Shaman_WaterShield
+/cast Frost Trap
+/cast Disengage
+END

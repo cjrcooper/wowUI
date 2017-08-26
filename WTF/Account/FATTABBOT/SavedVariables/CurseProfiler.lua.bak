@@ -1,0 +1,3 @@
+
+CurseProfilerDB = nil
+CurseProfilerDebugDB = nil

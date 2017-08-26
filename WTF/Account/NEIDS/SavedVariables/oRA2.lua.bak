@@ -1,0 +1,13 @@
+
+oRADB = {
+	["profiles"] = {
+		["Default"] = {
+			["minimap"] = {
+				["minimapPos"] = 242.6783444972144,
+			},
+		},
+	},
+	["disabled"] = {
+		["Default"] = true,
+	},
+}

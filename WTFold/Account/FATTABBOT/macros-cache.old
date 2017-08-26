@@ -1,0 +1,76 @@
+MACRO 10 " " SPELL_HOLY_AVENGINEWRATH
+#showtooltip Avenging Wrath
+/Cast Avenging Wrath
+/Use Talisman of Resurgence
+END
+MACRO 12 "  " Spell_Holy_DivineIllumination
+#showtooltip Divine Illumination
+/Use Divine Illumination
+/Use Figurine - Sapphire Owl
+END
+MACRO 16 "    " Spell_Arcane_Arcane04
+#showtooltip Arcane Torrent
+/use Arcane Torrent
+/use Sliver of Pure Ice
+END
+MACRO 1 "1" Spell_Holy_SealOfProtection
+/script local n=UnitName("hbmouseover");if GetSpellCooldown(Hand of Protection)==0 then SendChatMessage("Hand of Protection on "..n,"SAY") SendChatMessage("Let the Light Protect You!!","WHISPER",nil,n) end;
+/cast [target=hbmouseover] Hand of Protection
+END
+MACRO 7 "Beacon" Ability_Paladin_BeaconofLight
+#showtooltip Beacon of Light
+/cast Beacon of Light
+/dbm timer Beacon of Light 60
+END
+MACRO 11 "Beacon heals" Spell_Holy_Serendipity
+/Target Valithria Dreamwalker
+/cast Beacon of Light
+END
+MACRO 15 "Decursive" INV_Misc_QuestionMark
+/script Dcr:Println('No spell available')
+END
+MACRO 2 "ds" INV_Misc_QuestionMark
+/tar Deviate Fa
+END
+MACRO 9 "Follow" Ability_Hunter_BeastMastery
+/tar Darkcloze
+/follow Darkcloze
+END
+MACRO 4 "Freedom" Spell_Holy_SealOfValor
+/tar Odysseuss
+/Hand of Freedom
+END
+MACRO 6 "go" Ability_Creature_Cursed_03
+/p GO
+END
+MACRO 17 "Heals" Spell_Holy_HolyBolt
+/Target Pervett
+/Cast Holy Light
+END
+MACRO 3 "osyris" Ability_Creature_Cursed_03
+/w Osyris SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SP
+END
+MACRO 14 "SADASDASDA" Ability_Ambush
+/1 
+END
+MACRO 8 "salv" Ability_Rogue_CheatDeath
+#Show Tooltip Hand of Salvation
+END
+MACRO 13 "spit" Ability_Creature_Disease_01
+/tar vaahn
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+END
+MACRO 5 "ss" Ability_Creature_Cursed_01
+/rw Server: 203.46.105.46
+/rw Port: 22580
+/rw Password: tickle
+END

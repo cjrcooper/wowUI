@@ -1,0 +1,31 @@
+
+DBMEyeOfEternity_SavedVars = {
+	["Malygos"] = {
+		["Enabled"] = true,
+		["WarningBreathSoon"] = true,
+		["timer_enrage"] = true,
+		["TimerVortexCD"] = true,
+		["HealthFrame"] = false,
+		["TimerBreath"] = true,
+		["Enrage in %s %s"] = "warning_enrage",
+		["WarningSurgeYou"] = true,
+		["WarningSpark"] = true,
+		["TimerVortex"] = true,
+		["WarningSurge"] = true,
+		["WarningBreath"] = true,
+		["WarningVortexSoon"] = true,
+		["TimerSpark"] = true,
+		["Announce"] = false,
+		["WarningVortex"] = true,
+	},
+}
+DBMEyeOfEternity_SavedStats = {
+	["Malygos"] = {
+		["kills"] = 0,
+		["heroicKills"] = 1,
+		["heroicLastTime"] = 553.1069999999891,
+		["heroicBestTime"] = 553.1069999999891,
+		["heroicPulls"] = 2,
+		["pulls"] = 0,
+	},
+}

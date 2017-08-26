@@ -1,0 +1,90 @@
+VER 3 0100000000000001 " " "Spell_Holy_DivineIntervention"
+#showtooltip  Divine Shield
+/cancelaura Divine Shield 
+/cast Divine Shield
+END
+VER 3 010000000000000C "    " "INV_Misc_QuestionMark"
+/use Impetuous Query
+/use Figurine - Earthen Guardian
+END
+VER 3 0100000000000005 "     " "Spell_Holy_ArdentDefender"
+#showtooltip Ardent Defender
+/Cast Ardent Defender
+/S >>>AD is Up<<<
+/in 9 /S >>>AD is Down<<<
+END
+VER 3 0100000000000003 "      " "Spell_Holy_PowerWordBarrier"
+#showtooltip Divine Guardian
+/Cast Divine Guardian
+/Cast Holy Radiance
+/S >>>Raid Wall is Up<<<
+/in 5 /S >>>Raid Wall is Down<<<
+END
+VER 3 010000000000000E "       " "Spell_Holy_Restoration"
+#showtooltip Divine Protection
+/Cast Divine Protection
+/S >>>SW is Up<<<
+/in 9 /s >>>SW is Down<<<
+END
+VER 3 010000000000000F "                " "Spell_Holy_Power"
+/use Eitrigg's Oath
+END
+VER 3 0100000000000004 "Beacon" "Ability_Paladin_BeaconofLight"
+#showtooltip Beacon of Light
+/cast Beacon of Light
+/dbm timer Beacon of Light 60
+END
+VER 3 0100000000000009 "council" "Ability_Ambush"
+/target Veras Darkshadow
+/cast avenger's shield
+END
+VER 3 0100000000000008 "Divine Plea" "Spell_Frost_IceShock"
+/cast Divine Plea
+/Yell "I'm PLeading For Mana!!!!!
+END
+VER 3 010000000000000B "LFG" "Ability_Creature_Disease_02"
+/1 LF TANK H COS TIMED
+END
+VER 3 0100000000000002 "Lighttainted" "Ability_BullRush"
+/target Sacrolash
+/Cast Judgement of Light
+END
+VER 3 0100000000000010 "max range" "Spell_Holy_Dizzy"
+/script SetCVar("cameraDistanceMax",50) 
+END
+VER 3 0100000000000011 "Oh fuck" "Spell_Misc_HellifrePVPCombatMorale"
+/USE Impetuous Query
+/S TWIRLING, TWIRLING, TWIRLING TOWARDS FREEDOM
+END
+VER 3 0100000000000012 "R" "Spell_Holy_PrayerOfHealing"
+#showtooltip Repentance 
+/cast [nomodifier] Repentance 
+/cast [modifier:shift,target=focus] Repentance 
+END
+VER 3 0100000000000007 "Sacrifice" "Ability_Paladin_BlessedMending"
+/Target Jimbobjimmy
+/Cast Hand of Sacrifice
+/Whisper[Target]YOU HAVE HAND OF SACRIFICE
+END
+VER 3 0100000000000006 "Salv" "Ability_BackStab"
+/Target Darkilluzion
+/Cast Hand of Salvation
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+END
+VER 3 010000000000000D "SwiftZulianTiger" "Ability_Mount_JungleTiger"
+/cast [nomounted, nocombat] Crusader Aura 
+/stopcasting 
+/use Swift Zulian Tiger 
+/dismount [modifier: alt/mounted/combat] 
+/stopmacro [nomounted, nocombat] 
+/cast Concentration Aura
+END
+VER 3 010000000000000A "tainted" "Ability_Druid_Cyclone"
+/use Tainted Core 
+/y <------- TAINTED CORE TO: %t!!! 
+/s <------- TAINTED CORE TO: %t!!! 
+/run local t="target" if (UnitName(t)~=nil) then SendChatMessage("You have the core.","WHISPER",nil,UnitName(t)) end 
+END

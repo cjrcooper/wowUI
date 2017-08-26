@@ -1,0 +1,6 @@
+﻿local f = CreateFrame("frame")
+f:RegisterEvent("PLAYER_LOGIN")
+f:SetScript("OnEvent", function()
+	--SendChatMessage("ATTENTION GUILDIES : This is not your benevolent overlord Guild Master Lavitz, that is all.. carry on ", "GUILD",  nil, nil)
+	--SendChatMessage("ATTENTION LAVITZ : This is not your benevolent overlord Guild Master Lavitz, this is Lavítz that is all.. carry on ", "WHISPER",  nil, "Lavitz")
+end)

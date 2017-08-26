@@ -1,0 +1,8 @@
+## Interface: 60200
+## Title: Healbot_VerticalAlign
+## Notes: Healbot: Vertically align the text in the action buttons.
+## Version: 1.1.1
+## Dependencies: HealBot
+## SavedVariables: hbVA_value
+
+HealBot_VerticalAlign.lua

@@ -1,0 +1,3 @@
+MACRO 16777217 "gratz" "Ability_Ambush"
+C   O   N   G   R   A   T   U   L   A   T   I   O   N   S   !
+END

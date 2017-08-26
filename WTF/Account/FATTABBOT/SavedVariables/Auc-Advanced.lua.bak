@@ -1,0 +1,39 @@
+
+AucAdvancedConfig = {
+	["profile.Default"] = {
+		["util.appraiser.item.36907.stack"] = 20,
+		["util.appraiser.item.34056.stack"] = 10,
+		["util.appraiser.item.36908.stack"] = 20,
+		["configator.left"] = 111.9999678134923,
+		["matcherlist"] = {
+			"Undercut", -- [1]
+			"BeanCount", -- [2]
+		},
+		["util.appraiser.item.34056.number"] = -1,
+		["util.appraiser.item.36907.number"] = -1,
+		["configator.top"] = 608.9999680370097,
+		["util.appraiser.item.36908.model"] = "market",
+		["util.appraiser.item.36908.number"] = -1,
+		["match.undercut.value"] = 1,
+	},
+}
+AucAdvancedData = {
+	["AserArbitrageRealms"] = {
+		["Frostmourne"] = "Odybank",
+	},
+	["Stats"] = {
+	},
+	["UtilSearchUiData"] = {
+		["Global"] = {
+			["configator.left"] = 61.99996855855035,
+			["configator.top"] = 633.9999676644807,
+		},
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Version"] = 1,
+		["SavedSearches"] = {
+		},
+	},
+}

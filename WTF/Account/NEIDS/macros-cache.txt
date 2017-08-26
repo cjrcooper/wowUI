@@ -1,0 +1,55 @@
+MACRO 20 "/chicken" Spell_Holy_SealOfSalvation
+/chicken
+END
+MACRO 19 "Arc + Trink" Spell_Nature_GroundingTotem
+#showtooltip Arcane Power
+/use Nevermelting Ice Crystal
+/cast Arcane Power
+END
+MACRO 18 "Arc Power + Tali" INV_Misc_QuestionMark
+/use Talisman of Resurgence
+/cast Arcane Power
+END
+MACRO 17 "bone spike" Ability_BackStab
+/tar bone spike
+END
+MACRO 15 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Abolish Poison; [target=mouseover,exists,mod:shift] Cyclone
+END
+MACRO 7 "emotes" Ability_Druid_LunarGuidance
+/spit
+/slap
+/insult
+/violin
+/ponder
+/shoo
+/bored
+/doom
+/laugh
+/sorry
+/rofl
+/mourn
+/spit
+END
+MACRO 12 "Heart/spark" Ability_Creature_Cursed_02
+/tar Heart
+/tar Sparka
+END
+MACRO 16 "morrowgar" Ability_Creature_Cursed_02
+/tar spikes
+END
+MACRO 14 "Mount Special" Spell_Shadow_SpectralSight
+/mountspecial
+END
+MACRO 22 "NS + Healing Tch" Ability_Druid_Replenish
+/castsequence Nature's Swiftness, Healing Touch
+END
+MACRO 21 "Sprint" INV_Misc_QuestionMark
+/cast Cat Form
+/cast Dash
+END
+MACRO 5 "Vashj core" Ability_CheapShot
+/use [Target=Target,help] Tainted core
+/y ---> passing to %t 
+END

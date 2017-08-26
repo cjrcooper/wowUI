@@ -1,0 +1,31 @@
+MACRO 5 "ass" "Ability_Ambush"
+/cleartarget
+/target Mysterious Camel Figurine
+/stopmacro [noexists]
+END
+MACRO 2 "DA" "Ability_Creature_Cursed_03"
+/tar aeonaxx
+END
+MACRO 6 "Decursive" "1"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Cyclone; [@mouseover,exists,mod:shift] Remove Corruption
+END
+MACRO 4 "fuck off allianc" "Ability_BullRush"
+/rude
+/rude
+/rude
+/rude
+/rude
+/rude
+/rude
+/rude
+END
+MACRO 3 "oom" "Ability_Ambush"
+/target Superviso
+END
+MACRO 7 "Penitant" "INV_MACE_1H_DEATHWINGRAIDDW_D_01"
+/kneel
+END
+MACRO 1 " " "Spell_Shadow_UnstableAffliction_3"
+/1 LF1M BWD, guild run, going 5/6, need h pally, pst ilvl and achi Magmaw and Omni already down
+END

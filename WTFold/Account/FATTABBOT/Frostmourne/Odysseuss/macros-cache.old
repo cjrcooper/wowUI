@@ -1,0 +1,90 @@
+MACRO 16777217 " " Spell_Holy_DivineIntervention
+#showtooltip  Divine Shield
+/cancelaura Divine Shield 
+/cast Divine Shield
+END
+MACRO 16777228 "    " INV_Misc_QuestionMark
+/use Impetuous Query
+/use Figurine - Earthen Guardian
+END
+MACRO 16777221 "     " Spell_Holy_ArdentDefender
+#showtooltip Ardent Defender
+/Cast Ardent Defender
+/S >>>AD is Up<<<
+/in 9 /S >>>AD is Down<<<
+END
+MACRO 16777219 "      " Spell_Holy_PowerWordBarrier
+#showtooltip Divine Guardian
+/Cast Divine Guardian
+/Cast Holy Radiance
+/S >>>Raid Wall is Up<<<
+/in 5 /S >>>Raid Wall is Down<<<
+END
+MACRO 16777230 "       " Spell_Holy_Restoration
+#showtooltip Divine Protection
+/Cast Divine Protection
+/S >>>SW is Up<<<
+/in 9 /s >>>SW is Down<<<
+END
+MACRO 16777231 "                " Spell_Holy_Power
+/use Eitrigg's Oath
+END
+MACRO 16777220 "Beacon" Ability_Paladin_BeaconofLight
+#showtooltip Beacon of Light
+/cast Beacon of Light
+/dbm timer Beacon of Light 60
+END
+MACRO 16777225 "council" Ability_Ambush
+/target Veras Darkshadow
+/cast avenger's shield
+END
+MACRO 16777224 "Divine Plea" Spell_Frost_IceShock
+/cast Divine Plea
+/Yell "I'm PLeading For Mana!!!!!
+END
+MACRO 16777227 "LFG" Ability_Creature_Disease_02
+/1 LF TANK H COS TIMED
+END
+MACRO 16777218 "Lighttainted" Ability_BullRush
+/target Sacrolash
+/Cast Judgement of Light
+END
+MACRO 16777232 "max range" Spell_Holy_Dizzy
+/script SetCVar("cameraDistanceMax",50) 
+END
+MACRO 16777233 "Oh fuck" Spell_Misc_HellifrePVPCombatMorale
+/USE Impetuous Query
+/S TWIRLING, TWIRLING, TWIRLING TOWARDS FREEDOM
+END
+MACRO 16777234 "R" Spell_Holy_PrayerOfHealing
+#showtooltip Repentance 
+/cast [nomodifier] Repentance 
+/cast [modifier:shift,target=focus] Repentance 
+END
+MACRO 16777223 "Sacrifice" Ability_Paladin_BlessedMending
+/Target Jimbobjimmy
+/Cast Hand of Sacrifice
+/Whisper[Target]YOU HAVE HAND OF SACRIFICE
+END
+MACRO 16777222 "Salv" Ability_BackStab
+/Target Darkilluzion
+/Cast Hand of Salvation
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+/Whisper Darkilluzion YOU HAVE BEEN SALVED!!!
+END
+MACRO 16777229 "SwiftZulianTiger" Ability_Mount_JungleTiger
+/cast [nomounted, nocombat] Crusader Aura 
+/stopcasting 
+/use Swift Zulian Tiger 
+/dismount [modifier: alt/mounted/combat] 
+/stopmacro [nomounted, nocombat] 
+/cast Concentration Aura
+END
+MACRO 16777226 "tainted" Ability_Druid_Cyclone
+/use Tainted Core 
+/y <------- TAINTED CORE TO: %t!!! 
+/s <------- TAINTED CORE TO: %t!!! 
+/run local t="target" if (UnitName(t)~=nil) then SendChatMessage("You have the core.","WHISPER",nil,UnitName(t)) end 
+END

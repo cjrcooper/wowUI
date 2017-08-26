@@ -1,0 +1,13 @@
+
+InformantConfig = {
+	["welcomed"] = true,
+	["profile.Default"] = {
+		["configator.left"] = 111.9999678134923,
+		["configator.top"] = 608.9999680370097,
+	},
+	["position"] = {
+		["y"] = 383.9999713897709,
+		["x"] = 511.9999618530279,
+	},
+}
+InformantLocalUpdates = nil

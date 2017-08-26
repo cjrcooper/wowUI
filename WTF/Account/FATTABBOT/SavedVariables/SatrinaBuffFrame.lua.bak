@@ -1,0 +1,229 @@
+
+SBFDB = {
+	["global"] = {
+		["message"] = false,
+		["fixspells"] = true,
+		["version"] = 3.1,
+		["combatUpdate"] = 0.2,
+		["spells"] = {
+			["Crusader Aura"] = {
+				0, -- [1]
+				true, -- [2]
+				20, -- [3]
+				"PALADIN", -- [4]
+				1273998570, -- [5]
+			},
+			["Seal of Light"] = {
+				1800.003, -- [1]
+				false, -- [2]
+				20, -- [3]
+				"PALADIN", -- [4]
+				1273998574, -- [5]
+			},
+			["Flask of the Frost Wyrm"] = {
+				3600.006, -- [1]
+				false, -- [2]
+				20, -- [3]
+				"PALADIN", -- [4]
+				1273997890, -- [5]
+			},
+			["Hand of Freedom"] = {
+				6, -- [1]
+				false, -- [2]
+				20, -- [3]
+				"PALADIN", -- [4]
+				1273998578, -- [5]
+			},
+			["Greater Blessing of Kings"] = {
+				1800.004, -- [1]
+				false, -- [2]
+				20, -- [3]
+				"PALADIN", -- [4]
+				1273998570, -- [5]
+			},
+		},
+		["minor"] = 20,
+		["spellTTL"] = 30,
+	},
+	["profileKeys"] = {
+		["Odysseuss - Frostmourne"] = "Odysseuss - Frostmourne",
+	},
+	["profiles"] = {
+		["Odysseuss - Frostmourne"] = {
+			["flow"] = {
+			},
+			["frames"] = {
+				{
+					["general"] = {
+						["debuffs"] = true,
+						["frameName"] = "Buffs",
+						["buffs"] = true,
+						["blacklist"] = true,
+						["unit"] = "player",
+					},
+					["alwaysWarn"] = {
+					},
+					["layout"] = {
+						["point"] = {
+							"TOPRIGHT", -- [1]
+							-13.15995451200674, -- [2]
+							-23.69605563373604, -- [3]
+						},
+						["scale"] = 1,
+						["opacity"] = 1,
+						["growth"] = 1,
+						["rows"] = 1,
+						["y"] = 0,
+						["x"] = 0,
+						["count"] = 20,
+						["anchor"] = 1,
+						["sort"] = 1,
+						["visibility"] = 1,
+						["rowCount"] = 7,
+					},
+					["expiry"] = {
+						["minimumDuration"] = 0,
+						["sctColour"] = {
+							["b"] = 0.1,
+							["g"] = 1,
+							["r"] = 0.1,
+						},
+						["warnAtTime"] = 30,
+						["frame"] = "ChatFrame1",
+						["sound"] = "None",
+					},
+					["count"] = {
+						["y"] = -4,
+						["x"] = 0,
+						["justify"] = "CENTER",
+						["frameLevel"] = 4,
+						["fontSize"] = 10,
+						["font"] = "Friz Quadrata TT",
+						["colour"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["list"] = {
+					},
+					["timer"] = {
+						["fontSize"] = 10,
+						["justify"] = "CENTER",
+						["scale"] = 1,
+						["y"] = -15,
+						["font"] = "Friz Quadrata TT",
+						["regularColour"] = {
+							["b"] = 0,
+							["g"] = 0.82,
+							["r"] = 1,
+						},
+						["frameLevel"] = 4,
+						["format"] = 2,
+						["expiringColour"] = {
+							["b"] = 0,
+							["g"] = 0.82,
+							["r"] = 1,
+						},
+						["x"] = 0,
+					},
+					["icon"] = {
+						["y"] = 0,
+						["x"] = 0,
+						["frameLevel"] = 3,
+						["opacity"] = 1,
+						["cooldown"] = false,
+						["size"] = 23,
+					},
+					["filters"] = {
+					},
+				}, -- [1]
+				{
+					["general"] = {
+						["blacklist"] = true,
+						["debuffs"] = true,
+						["frameName"] = "Debuffs",
+						["unit"] = "player",
+					},
+					["alwaysWarn"] = {
+					},
+					["layout"] = {
+						["rows"] = 1,
+						["point"] = {
+							"TOPRIGHT", -- [1]
+							-12.07997581508634, -- [2]
+							-144.5281623015198, -- [3]
+						},
+						["scale"] = 1,
+						["opacity"] = 1,
+						["growth"] = 1,
+						["y"] = 0,
+						["x"] = 0,
+						["count"] = 16,
+						["anchor"] = 1,
+						["sort"] = 1,
+						["visibility"] = 1,
+						["rowCount"] = 7,
+					},
+					["expiry"] = {
+						["minimumDuration"] = 0,
+						["sctColour"] = {
+							["b"] = 0.1,
+							["g"] = 1,
+							["r"] = 0.1,
+						},
+						["warnAtTime"] = 30,
+						["frame"] = "ChatFrame1",
+						["sound"] = "None",
+					},
+					["count"] = {
+						["y"] = -4,
+						["x"] = 0,
+						["justify"] = "CENTER",
+						["frameLevel"] = 4,
+						["fontSize"] = 10,
+						["font"] = "Friz Quadrata TT",
+						["colour"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["list"] = {
+					},
+					["timer"] = {
+						["fontSize"] = 8,
+						["justify"] = "CENTER",
+						["scale"] = 1,
+						["y"] = -15,
+						["font"] = "Friz Quadrata TT",
+						["regularColour"] = {
+							["b"] = 0,
+							["g"] = 0.82,
+							["r"] = 1,
+						},
+						["frameLevel"] = 4,
+						["format"] = 2,
+						["expiringColour"] = {
+							["b"] = 0,
+							["g"] = 0.82,
+							["r"] = 1,
+						},
+						["x"] = 0,
+					},
+					["icon"] = {
+						["y"] = 0,
+						["x"] = 0,
+						["frameLevel"] = 3,
+						["opacity"] = 1,
+						["size"] = 23,
+					},
+					["filters"] = {
+					},
+				}, -- [2]
+			},
+			["settings"] = {
+			},
+		},
+	},
+}

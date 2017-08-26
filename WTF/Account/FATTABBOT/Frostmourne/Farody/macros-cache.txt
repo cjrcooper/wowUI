@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Frostenageg" "Ability_Shaman_WaterShield"
+/cast Frost Trap
+/cast Disengage
+END

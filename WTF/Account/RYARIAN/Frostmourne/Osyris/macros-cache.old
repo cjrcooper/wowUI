@@ -1,0 +1,11 @@
+MACRO 16777217 "BubbleHearth" Spell_Holy_DivineIntervention
+/cast Divine Protection
+/cast Hearthstone
+END
+MACRO 16777218 "Jizzz Wisp" Ability_CheapShot
+/w kokonac 8--------^^--D
+/w kokonac 8------^^----D
+/w kokonac 8----^^------D
+/w kokonac 8------^^----D
+/w kokonac 8---------^^-D;',"..
+END

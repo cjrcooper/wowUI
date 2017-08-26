@@ -1,0 +1,3 @@
+ConsLegion: enabled
+Lavitz: enabled
+NPCScan: disabled

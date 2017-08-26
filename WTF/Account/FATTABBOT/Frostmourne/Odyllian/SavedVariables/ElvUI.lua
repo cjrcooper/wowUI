@@ -1,0 +1,73 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatLog"] = {
+		["1499851891.621"] = {
+			"anyone else", -- [1]
+			"Insinuate-Frostmourne", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Insinuate", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			896, -- [11]
+			"Player-3725-099F086F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			nil, -- [18]
+			nil, -- [19]
+			"CHAT_MSG_GUILD", -- [20]
+		},
+		["1499851915.528"] = {
+			"%s has earned the achievement |cffffff00|Hachievement:884:Player-3725-0A27FDCB:1:7:12:17:4294967295:4294967295:4294967295:4294967295|h[Swift White Hawkstrider]|h|r!", -- [1]
+			"Teslabug", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Teslabug", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			897, -- [11]
+			"Player-3725-0A27FDCB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			nil, -- [18]
+			nil, -- [19]
+			"CHAT_MSG_GUILD_ACHIEVEMENT", -- [20]
+		},
+		["1499851869.433"] = {
+			"Anyone daily heroic come dps", -- [1]
+			"Insinuate-Frostmourne", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Insinuate", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			894, -- [11]
+			"Player-3725-099F086F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			nil, -- [18]
+			nil, -- [19]
+			"CHAT_MSG_GUILD", -- [20]
+		},
+	},
+}

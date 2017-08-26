@@ -1,0 +1,119 @@
+MACRO 2 " " Spell_Shadow_MindSteal
+#showtooltip Blind
+/cast [target=focus, exists] Blind;blind;
+END
+MACRO 13 " " Ability_Kick
+#showtooltip Kick
+/cast Kick
+/rw Darkilluzion used Kick. Produkt is next.
+/w Produkt Your interrupt is next.
+END
+MACRO 17 " " Ability_CheapShot
+#showicon
+#showtooltip Cheap Shot
+/cast Premeditation
+/cast Cheap Shot
+END
+MACRO 18 " " INV_Misc_QuestionMark
+#showicon
+#showtooltip Shiv
+/equipslot 17 Searing Sunblade
+/cast Shiv
+/equipslot 17 Vengeful Gladiator's Quickblade
+END
+MACRO 16 " " Ability_Sap
+#showtooltip Sap 
+/console targetNearestDistance 10.000000 
+/targetenemy [noharm][dead] 
+/console targetNearestDistance 41.000000 
+/cast [harm,nodead] Sap 
+END
+MACRO 19 " " INV_Misc_QuestionMark
+#showicon
+#showtooltip Garrote
+/cast Premeditation
+/cast Garrote
+END
+MACRO 5 " " Spell_Holy_PrayerofShadowProtection
+#showtooltip Preparation
+/cast shadowstep
+/cast sprint
+/cast [nostealth] Evasion
+/cast Preparation  
+END
+MACRO 15 "  " Ability_Warrior_PunishingBlow
+#showicon
+#showtooltip Blade Flurry
+/use Blade Flurry
+/use Berserker's Call
+END
+MACRO 9 "Crippling Poison" Ability_PoisonSting
+#showicon
+#showtooltip Crippling Poison 
+/use Crippling Poison 
+/use [button:2] 17; 16
+END
+MACRO 10 "Deadly Poison" Ability_Rogue_DualWeild
+#showicon
+#showtooltip Deadly Poison VII
+/use Deadly Poison VII
+/use [button:2] 17; 16
+END
+MACRO 8 "Instant Poison" ABILITY_POISONS
+#showicon
+#showtooltip Instant Poison VIII
+/use Instant Poison VIII
+/use [button:2] 17; 16
+END
+MACRO 14 "Mind-numbing" Spell_Nature_NullifyDisease
+#showicon
+#showtooltip Mind-numbing Poison 
+/use Mind-numbing Poison 
+/use [button:2] 17; 16
+END
+MACRO 20 "Salv" Spell_Holy_GreaterBlessingofSalvation
+/w Odysseuss SALV ME PLEASE
+/w Odysseuss SALV ME PLEASE
+/w Odysseuss SALV ME PLEASE
+/w Odysseuss SALV ME PLEASE
+/w Odysseuss SALV ME PLEASE
+END
+MACRO 6 "Tainted Core" Spell_Nature_ElementalShields
+/use Tainted Core
+/y >>> THE TAINTED CORE IS GIVEN TO: %t <<<
+/s >>> THE TAINTED CORE IS GIVEN TO: %t <<<
+/script SendChatMessage(">>> YOU HAVE THE CORE <<<", "WHISPER", "Orcish", UnitName("target"));
+END
+MACRO 1 "Target" Ability_Warrior_RallyingCry
+/tar Fulgor
+/tar Mekt
+/tar Vorak
+/tar Martic
+/tar Bog Lurk
+/tar Coilfang Em
+/tar Crip
+/tar Doomsay
+/tar Okrek
+/tar Goretoo
+/tar Voidhunt
+/tar Morc
+/tar Hema
+/tar Speak
+/tar Nura
+/tar Ever-Core
+/tar Chief Engineer L
+/tar Collid
+/tar Kraat
+/tar Ambassador J
+END
+MACRO 3 "Vanish" Ability_Vanish
+#showtooltip vanish
+/stopattack
+/cast Vanish
+END
+MACRO 11 "Wound Poison" INV_Misc_QuestionMark
+#showicon
+#showtooltip Wound Poison V
+/use Wound Poison V 
+/use [button:2] 17; 16
+END

@@ -1,0 +1,64 @@
+MACRO 21 " " INV_Misc_QuestionMark
+#showtooltip Mutilate
+/startattack 
+/cast Mutilate
+END
+MACRO 9 " " INV_Misc_QuestionMark
+#showtooltip
+/use Crippling Poison
+/use [button:1] 16; [button:2] 17
+END
+MACRO 10 " " INV_Misc_QuestionMark
+#showtooltip Sap
+/console targetNearestDistance 10.000000
+/targetenemy [noharm][dead]
+/console targetNearestDistance 41.000000
+/cast [harm,nodead] Sap 
+END
+MACRO 11 " " INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Kick
+END
+MACRO 12 " " INV_Misc_QuestionMark
+#showtooltip Sinister Strike
+/startattack 
+/cast Sinister Strike
+END
+MACRO 13 " " INV_Misc_QuestionMark
+#showtooltip Tricks of the Trade
+/cast [target=focus] Tricks of the Trade
+/y Tricks of the Trade on %f
+END
+MACRO 6 " " INV_Misc_QuestionMark
+#showtooltip
+/use Wound Poison VII
+/use [button:1] 16; [button:2] 17
+END
+MACRO 14 " " INV_Misc_QuestionMark
+#showtooltip Blind
+/cast [target=focus, exists] Blind; blind;
+END
+MACRO 15 " " INV_Misc_QuestionMark
+#showtooltip Stealth
+/cast [nomodifier] !Stealth
+/cancelaura [modifier] Stealth
+END
+MACRO 7 " " INV_Misc_QuestionMark
+#showtooltip
+/use Deadly Poison IX
+/use [button:1] 16; [button:2] 17
+END
+MACRO 8 " " INV_Misc_QuestionMark
+#showtooltip
+/use Mind-numbing Poison
+/use [button:1] 16; [button:2] 17
+END
+MACRO 20 " " INV_Misc_QuestionMark
+#showtooltip
+/use Instant Poison IX
+/use [button:1] 16; [button:2] 17
+END
+MACRO 19 "Sell" INV_Misc_QuestionMark
+#showtooltip Enchanting 
+/2 |cffffd000|Htrade:51313:450:450:300000003979A41:4/////f+//77/+3v///PLjnw+nW9j8Cp73/D/37v2LVv/l//sAB|h[Enchanting]|h|r LFW. Selling Berserking 900g, Mongoose 400g my mats.
+END

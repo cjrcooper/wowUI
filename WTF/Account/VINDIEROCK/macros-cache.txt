@@ -1,0 +1,7 @@
+MACRO 1 "g swear" Ability_Creature_Disease_03
+/G BASICALLY ALL WE'RE GONNA DO IS FUCKING DANCE CUNT
+END
+MACRO 2 "water shield" Ability_Druid_HealingInstincts
+/cast Stormstrike
+/use Water Shield
+END

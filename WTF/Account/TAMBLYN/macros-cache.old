@@ -1,0 +1,22 @@
+MACRO 5 "ass" Ability_Ambush
+/1 LF3M 1 Tank + 2 DPS  OS10 3D Zergs Link GS + Achi
+END
+MACRO 2 "DA" Ability_Creature_Cursed_03
+/1 LF4M OS10 3D Zerg PST GS + ACHI Need 2 tanks, 1 heals
+END
+MACRO 4 "fuck off allianc" Ability_BullRush
+/rude
+/rude
+/rude
+/rude
+/rude
+/rude
+/rude
+/rude
+END
+MACRO 3 "oom" Ability_Ambush
+/target Supervisor
+END
+MACRO 1 " " Spell_Shadow_UnstableAffliction_3
+/1 |cffffd000|Htrade:51306:450:450:300000000B3CFE7:4/9+svWuCb++NZDAAAIfZRAOcADAAAHAE/fBAA8HADA47/3P/nw5XB|h[Engineering]|h|r LF Work - Cheap cheap, like the budgie
+END

@@ -1,0 +1,10 @@
+
+ErrorMonsterDB = {
+	["profileKeys"] = {
+		["Odysseuss - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

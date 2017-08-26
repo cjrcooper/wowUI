@@ -1,0 +1,69 @@
+MACRO 11 "ADDS FFS" Ability_Creature_Cursed_03
+/rw ADDS FFS
+/rw ADDS FFS
+/rw ADDS FFS
+/rw ADDS FFS
+END
+MACRO 37 "agag" INV_Misc_QuestionMark
+END
+MACRO 36 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Abolish Poison; [target=mouseover,exists,mod:shift] Cyclone
+END
+MACRO 22 "loot rule 1" Ability_Creature_Disease_01
+/rw LOOT RULES:
+/rw ROLLS FOR BOP ITEMS MS OVER OS
+/rw Trinkets will be rolled and if u did your job for the encoutner u will recieve trinket
+/rw BOE ITEMS will be held until the end
+END
+MACRO 23 "LooT RULE 2" Ability_Creature_Disease_01
+/rw Primordial Saronite will be raid rolled by raid leader and number will be set as seen by raid leader
+END
+MACRO 26 "LOOT RULES TOC25" Ability_Creature_Disease_01
+/rw LOOT RULES: Rolls for items, MS core  members get first preference on gear, if these items are not wanted then all members can roll on items
+END
+MACRO 1 "Pulling" Ability_Creature_Cursed_04
+/rw <:;:;:;:}==={ PULLING }==={:;:;:;:>
+/rw <:;:;:;:}==={ PULLING }==={:;:;:;:>
+END
+MACRO 9 "QUESTS" Ability_Creature_Cursed_05
+/target skybreaker recon fighter
+/target Wild Wyrm
+/target Lake frog
+/target Maiden of Winter's Breath Lake
+/target Dark subjugator
+/use Spear of Hodir
+/use Warts-B-Gone Lip Balm
+/use SGM-3
+/use Orb of Illusion
+/use Everburning Ember
+/kiss
+END
+MACRO 10 "saga" Ability_Ambush
+/random 100
+END
+MACRO 38 "SPAM" Ability_Creature_Cursed_01
+/yell Conquer the guild who gets carried then has to ninja loot to feel proud
+/2 Conquer the guild who gets carried then has to ninja loot to feel proud
+END
+MACRO 12 "Stance 1 / TANK" Ability_Mount_PolarBear_Brown
+/equipset Tanking
+/usetalents 1
+END
+MACRO 13 "Stance 2 / DPS" Ability_Creature_Cursed_03
+/equipset DPS
+/usetalents 2
+END
+MACRO 8 "Target cross" Spell_Shadow_SacrificialShield
+/script SetRaidTarget("target",7);
+END
+MACRO 7 "Target Skull" Spell_Shadow_CurseOfTounges
+/script SetRaidTarget("target",8);
+/rw Kill {skull}
+END
+MACRO 16 "VENT" Ability_Hunter_BeastCall
+/rw Vent Details: 
+/rw Hostname: v62.darkstarllc.com 
+/rw Port Number: 3821 
+/rw Password: prodsun 
+END

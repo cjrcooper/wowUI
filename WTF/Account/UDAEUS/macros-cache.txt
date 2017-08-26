@@ -1,0 +1,64 @@
+MACRO 2 "b" Ability_Hunter_Pathfinding
+/focus
+/target Kahooli
+/use Heavy Netherweave Bandage
+/target focus
+/clearfocus
+END
+MACRO 6 "DPS" Spell_Nature_LightningOverload
+/cast Presence of Mind
+/use Pendant of the Violet Eye
+/cast Icy Veins
+/cast Arcane Power
+END
+MACRO 13 "h" Ability_Creature_Disease_04
+/focus
+/target guiswa
+/cast Healing Wave
+/cleartarget
+/target focus
+/clearfocus
+END
+MACRO 12 "Healing" Spell_Arcane_PortalTheramore
+/5 Thebulk = Osyris and Thoraxx
+/5 Phaeth and poison = Asam
+/5 Kinslayer and raid = Imoo
+/5 Jimmy and raid = Hwnow
+/5 Everyone else on the raid.
+END
+MACRO 5 "kick" Ability_BackStab
+/cast Kick
+/rw Kicked: Someone is next
+END
+MACRO 3 "m" Ability_BackStab
+/target anton
+END
+MACRO 9 "Phase 1" Ability_Creature_Cursed_03
+/rw Bulk - Ody HW
+END
+MACRO 8 "Phase 2" Ability_Creature_Cursed_03
+/5 Phase 2
+/5 Jim - Fauz
+/5 Phaeth - Shari
+/5 Mauru - Fauz
+/5 Krow - Hwnow
+/5 Slapi - Smudgey and osyO
+END
+MACRO 11 "recruit" Spell_Holy_HolyProtection
+/2 Tickle me Emo 5/5 MH 9/9 BT, LF GEARED and experienced Resto Shammies/Holy Priests for Sunwell progression. No shitcunts/speds/failures.
+END
+MACRO 4 "spam caps" Ability_Creature_Disease_03
+/o SPAM CAPS
+END
+MACRO 1 "spike" Ability_Hunter_AimedShot
+/use Naj'entus Spine
+END
+MACRO 7 "t" Ability_Creature_Poison_03
+/use Tainted Core
+/y <------- TAINTED CORE TO: %t ! ! !
+/s <------- TAINTED CORE TO: %t ! ! !
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", "Orcish", UnitName("target"));
+END
+MACRO 10 "Taunt" Spell_Holy_EyeforanEye
+/cast [help] Righteous Defense; [target=targettarget, help] Righteous Defense
+END

@@ -1,0 +1,7 @@
+SET autoLootDefault "1"
+SET scriptErrors "1"
+SET questFadingDisable "1"
+SET watchFrameState "1"
+SET CombatHealing "0"
+SET cameraDistanceMaxFactor "1"
+SET talentFrameShown "1"

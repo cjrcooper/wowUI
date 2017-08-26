@@ -1,0 +1,1181 @@
+
+QuestHelper_Version = "0.70"
+QuestHelper_SaveVersion = 10
+QuestHelper_Locale = "enUS"
+QuestHelper_Quests = {
+	["0.70 on 3.0.9"] = {
+		[2] = {
+			[35] = {
+				["Tiger Mastery"] = {
+					["id"] = 187,
+					["hash"] = 2283806688,
+					["finish"] = "Ajeck Rouack",
+				},
+				["Martek the Exiled"] = {
+					["hash"] = 1962218707,
+					["id"] = 1106,
+				},
+				["The Battle for Arathi Basin!"] = {
+					["hash"] = 3687197319,
+					["id"] = 8170,
+				},
+				["Encrusted Tail Fins"] = {
+					["id"] = 1107,
+					["item"] = {
+						["Encrusted Tail Fin"] = {
+							["drop"] = {
+								["Saltscale Warrior"] = 1,
+								["Saltscale Forager"] = 3,
+								["Saltscale Hunter"] = 6,
+							},
+						},
+					},
+					["hash"] = 3367901781,
+				},
+			},
+			[30] = {
+				["Elixir of Agony"] = {
+					["hash"] = 2692230966,
+					["id"] = 515,
+				},
+				["Hypercapacitor Gizmo"] = {
+					["hash"] = 4019528618,
+					["id"] = 5151,
+				},
+			},
+			[37] = {
+				["Headhunting"] = {
+					["hash"] = 2211321016,
+					["id"] = 582,
+				},
+				["Guile of the Raptor"] = {
+					["hash"] = 4160886594,
+					["id"] = 701,
+				},
+				["Sigil of Strom"] = {
+					["hash"] = 2290684050,
+					["id"] = 639,
+				},
+				["Tiger Mastery"] = {
+					["start"] = "Ajeck Rouack",
+					["id"] = 188,
+					["hash"] = 4025229534,
+				},
+				["Goblin Sponsorship"] = {
+					["hash"] = 1585713044,
+					["id"] = 1180,
+				},
+				["The Vile Reef"] = {
+					["hash"] = 2327909587,
+					["id"] = 629,
+				},
+			},
+			[38] = {
+				["Mok'thardin's Enchantment"] = {
+					["hash"] = 3132695208,
+					["id"] = 570,
+				},
+				["Call to Arms"] = {
+					["hash"] = 3575653180,
+					["id"] = 678,
+				},
+				["Panther Mastery"] = {
+					["hash"] = 55778869,
+					["id"] = 192,
+				},
+			},
+			[36] = {
+				["Raptor Mastery"] = {
+					["start"] = "Hemet Nesingwary Jr.",
+					["id"] = 195,
+					["hash"] = 2010584298,
+				},
+				["An Unusual Patron"] = {
+					["hash"] = 2774547208,
+					["id"] = 9457,
+				},
+				["Parts for Kravel"] = {
+					["hash"] = 4218820412,
+					["id"] = 1112,
+				},
+				["The Defense of Grom'gol"] = {
+					["hash"] = 360783385,
+					["id"] = 568,
+				},
+			},
+			[40] = {
+				["Chapter I"] = {
+					["hash"] = 1458973493,
+					["id"] = 339,
+				},
+				["The Green Hills of Stranglethorn"] = {
+					["hash"] = 1166356848,
+					["id"] = 338,
+				},
+				["WANTED: Baron Vardus"] = {
+					["hash"] = 2631670979,
+					["id"] = 566,
+				},
+			},
+			[34] = {
+				["Raptor Mastery"] = {
+					["id"] = 194,
+					["hash"] = 3953334051,
+					["finish"] = "Hemet Nesingwary Jr.",
+				},
+				["Infiltration"] = {
+					["hash"] = 374938441,
+					["id"] = 533,
+				},
+			},
+			[26] = {
+				["Going, Going, Guano!"] = {
+					["hash"] = 3709737629,
+					["id"] = 1109,
+				},
+			},
+		},
+	},
+}
+QuestHelper_Objectives = {
+	["0.70 on 3.0.9"] = {
+		["monster"] = {
+			["Skymaster Sunwing"] = {
+			},
+			["Shadowmaw Panther"] = {
+				["quest"] = true,
+			},
+			["Boulderfist Magus"] = {
+				["quest"] = true,
+			},
+			["Junter Weiss"] = {
+			},
+			["Gurric"] = {
+			},
+			["Verifonix"] = {
+			},
+			["Bilko Driftspark"] = {
+			},
+			["Maddix"] = {
+			},
+			["Tharm"] = {
+			},
+			["Herzo Safeflight"] = {
+			},
+			["Barley"] = {
+			},
+			["Ohura"] = {
+			},
+			["Doras"] = {
+			},
+			["Tor'gan"] = {
+			},
+			["Surristrasz"] = {
+			},
+			["Skymistress Gloaming"] = {
+			},
+			["Lashtail Raptor"] = {
+				["quest"] = true,
+			},
+			["Nethestrasz"] = {
+			},
+			["Dyslix Silvergrub"] = {
+			},
+			["Kerna"] = {
+			},
+			["Shavalius the Fancy"] = {
+			},
+			["Halvdan"] = {
+			},
+			["Omu Spiritbreeze"] = {
+			},
+			["Kragh"] = {
+			},
+			["Blacksmith Assaulted"] = {
+				["quest"] = true,
+			},
+			["Baron Vardus"] = {
+			},
+			["Scarlet Chaplain"] = {
+				["level"] = 34,
+				["id"] = 4299,
+				["levelw"] = 14,
+				["looted"] = 1,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870678, -- [2]
+						0.3232975338948748, -- [3]
+						12.99, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kraul Bat"] = {
+			},
+			["Bloodscalp Headhunter"] = {
+			},
+			["Deathmaster Dwire"] = {
+			},
+			["Grennik"] = {
+			},
+			["Makki Wintergale"] = {
+			},
+			["Hyeyoung Parka"] = {
+			},
+			["Kiz Coilspanner"] = {
+			},
+			["Gur'zil"] = {
+			},
+			["Saltscale Hunter"] = {
+				["level"] = 35.53846153846154,
+				["id"] = 879,
+				["levelw"] = 13,
+				["looted"] = 6,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.270307871436638, -- [2]
+						0.2423274644557104, -- [3]
+						13.16, -- [4]
+					}, -- [1]
+				},
+			},
+			["Breck Rockbrow"] = {
+			},
+			["Bragok"] = {
+			},
+			["Lady Zephris"] = {
+			},
+			["Alieshor"] = {
+			},
+			["Vlagga Freyfeather"] = {
+			},
+			["Rafae"] = {
+			},
+			["Shyn"] = {
+			},
+			["Syndicate Conjuror"] = {
+			},
+			["Baneflight"] = {
+			},
+			["Faustron"] = {
+			},
+			["Murkgill Lord"] = {
+			},
+			["Ajeck Rouack"] = {
+				["id"] = 717,
+				["level"] = 40,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.355937659740448, -- [2]
+						0.1057304590940476, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kabarg Windtamer"] = {
+			},
+			["Breyk"] = {
+			},
+			["Syndicate Prowler"] = {
+			},
+			["Nimboya"] = {
+			},
+			["Michael Garrett"] = {
+			},
+			["Thalon"] = {
+			},
+			["Gringer"] = {
+			},
+			["Far Seer Mok'thardin"] = {
+			},
+			["Gryfe"] = {
+			},
+			["Naias"] = {
+			},
+			["Gorrik"] = {
+			},
+			["Unoke Tenderhoof"] = {
+			},
+			["Daggerspine Siren"] = {
+			},
+			["Vhulgra"] = {
+			},
+			["Houndmaster Loksey"] = {
+				["id"] = 3974,
+				["levelw"] = 2,
+				["level"] = 34,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870676, -- [2]
+						0.3232975338948748, -- [3]
+						1.33, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kimbiza"] = {
+			},
+			["Zarise"] = {
+			},
+			["Crystal Spine Basilisk"] = {
+				["level"] = 34,
+				["id"] = 689,
+				["levelw"] = 5,
+				["looted"] = 2,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.2614169771439719, -- [2]
+						0.1841560804159699, -- [3]
+						4.53, -- [4]
+					}, -- [1]
+				},
+			},
+			["Murkgill Warrior"] = {
+			},
+			["Murkgill Forager"] = {
+			},
+			["Sir S. J. Erlgadin"] = {
+			},
+			["Georgia"] = {
+			},
+			["Wharfmaster Lozgil"] = {
+			},
+			["Bloodsail Swashbuckler"] = {
+			},
+			["Jon-Jon the Crow"] = {
+			},
+			["Urda"] = {
+			},
+			["Arcanist Doan"] = {
+				["level"] = 35,
+				["id"] = 6487,
+				["levelw"] = 2,
+				["looted"] = 1,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870675, -- [2]
+						0.3232975338948747, -- [3]
+						2.89, -- [4]
+					}, -- [1]
+				},
+			},
+			["Nutral"] = {
+			},
+			["Scarlet Diviner"] = {
+				["level"] = 34,
+				["id"] = 4291,
+				["levelw"] = 8,
+				["looted"] = 3,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870676, -- [2]
+						0.3232975338948747, -- [3]
+						8.32, -- [4]
+					}, -- [1]
+				},
+			},
+			["Scarlet Monk"] = {
+				["id"] = 4540,
+				["levelw"] = 11,
+				["level"] = 34,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870677, -- [2]
+						0.3232975338948748, -- [3]
+						8.09, -- [4]
+					}, -- [1]
+				},
+			},
+			["Skymaster Baeric"] = {
+			},
+			["Andruk"] = {
+			},
+			["Mogh the Undying"] = {
+			},
+			["Grisha"] = {
+			},
+			["Grimwing"] = {
+			},
+			["Kurzen Elite"] = {
+			},
+			["Elder Stranglethorn Tiger"] = {
+				["quest"] = true,
+			},
+			["Scarlet Tracking Hound"] = {
+				["id"] = 4304,
+				["levelw"] = 2,
+				["level"] = 33,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870675, -- [2]
+						0.3232975338948747, -- [3]
+						1.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kin'weelay"] = {
+			},
+			["Sin'Dall"] = {
+			},
+			["Marvin Wobblesprocket"] = {
+			},
+			["Enraged Panther"] = {
+			},
+			["Kurzen Witch Doctor"] = {
+			},
+			["Young Stranglethorn Raptor"] = {
+				["id"] = 855,
+				["levelw"] = 5,
+				["level"] = 31,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.2463495519714079, -- [2]
+						0.1574889555897402, -- [3]
+						2.76, -- [4]
+					}, -- [1]
+				},
+			},
+			["Saltwater Crocolisk"] = {
+				["id"] = 1151,
+				["levelw"] = 3,
+				["level"] = 35,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.3022759854793549, -- [2]
+						0.2526255249977112, -- [3]
+						0.33, -- [4]
+					}, -- [1]
+					{
+						38, -- [1]
+						0.2612625306302851, -- [2]
+						0.1914322931658138, -- [3]
+						1.1, -- [4]
+					}, -- [2]
+				},
+			},
+			["Nemeth Hawkeye"] = {
+			},
+			["Skullsplitter Beastmaster"] = {
+			},
+			["Gorkas"] = {
+			},
+			["Garr Salthoof"] = {
+			},
+			["Commander Aggro'gosh"] = {
+			},
+			["Stranglethorn Raptor"] = {
+				["looted"] = 7,
+				["levelw"] = 23,
+				["id"] = 685,
+				["level"] = 33.91304347826086,
+				["quest"] = true,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.2607131675507062, -- [2]
+						0.1621343179284242, -- [3]
+						28.77999999999999, -- [4]
+					}, -- [1]
+				},
+			},
+			["High Executor Darthalia"] = {
+			},
+			["Wizzle Brassbolts"] = {
+			},
+			["Saltscale Warrior"] = {
+				["level"] = 35,
+				["id"] = 871,
+				["levelw"] = 5,
+				["looted"] = 2,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.2679047800416239, -- [2]
+						0.2479572019444337, -- [3]
+						5.66, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kravel Koalbeard"] = {
+			},
+			["Kroum"] = {
+			},
+			["Runk Windtamer"] = {
+			},
+			["Morlia Doomwing"] = {
+			},
+			["Zengu"] = {
+			},
+			["Maaka"] = {
+			},
+			["Kurzen Headshrinker"] = {
+			},
+			["Amilya Airheart"] = {
+			},
+			["Drum Fel"] = {
+			},
+			["Wizlo Bearingshiner"] = {
+			},
+			["Lilleth Radescu"] = {
+			},
+			["Dreadwind"] = {
+			},
+			["Kip Trawlskip"] = {
+			},
+			["Daggerspine Shorehunter"] = {
+			},
+			["Murkgill Hunter"] = {
+			},
+			["Krusk"] = {
+			},
+			["Barnil Stonepot"] = {
+			},
+			["Shardi"] = {
+			},
+			["Master Apothecary Faranell"] = {
+			},
+			["The Spirit of Gnomeregan"] = {
+			},
+			["Hemet Nesingwary Jr."] = {
+				["id"] = 715,
+				["level"] = 40,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.3565453588962555, -- [2]
+						0.1075017005205154, -- [3]
+						3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Saltscale Oracle"] = {
+			},
+			["Penumbrius"] = {
+			},
+			["Devrak"] = {
+			},
+			["Boulderfist Brute"] = {
+				["quest"] = true,
+			},
+			["Saltscale Forager"] = {
+				["level"] = 35.25,
+				["id"] = 877,
+				["levelw"] = 8,
+				["looted"] = 3,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.2680740411798809, -- [2]
+						0.2413617601233464, -- [3]
+						6.73, -- [4]
+					}, -- [1]
+				},
+			},
+			["River Crocolisk"] = {
+				["id"] = 1150,
+				["level"] = 30,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						38, -- [1]
+						0.3420939445495606, -- [2]
+						0.09996680915355682, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Mosh'Ogg Lord"] = {
+			},
+			["Zanzil Skeleton"] = {
+			},
+			["Saltscale Tide Lord"] = {
+			},
+			["Fhyn Leafshadow"] = {
+			},
+			["Nezzliok the Dire"] = {
+			},
+			["Gorrim"] = {
+			},
+			["Karos Razok"] = {
+			},
+			["Negolash"] = {
+			},
+			["Tobias Sarkhoff"] = {
+			},
+			["Omusa Thunderhorn"] = {
+			},
+			["Scarlet Gallant"] = {
+				["id"] = 4287,
+				["levelw"] = 6,
+				["level"] = 33.5,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870675, -- [2]
+						0.3232975338948748, -- [3]
+						2.86, -- [4]
+					}, -- [1]
+				},
+			},
+			["Kurzen Subchief"] = {
+			},
+			["Bookie Herod"] = {
+			},
+			["Skullsplitter Hunter"] = {
+			},
+			["Zanzil the Outcast"] = {
+			},
+			["Fleet Master Firallon"] = {
+			},
+			["Zanzil Zombie"] = {
+			},
+			["Tal"] = {
+			},
+			["Vahgruk"] = {
+			},
+			["Narzun Skybreaker"] = {
+			},
+			["Gursha"] = {
+			},
+			["Martek the Exiled"] = {
+			},
+			["Yugrek"] = {
+			},
+			["Innalia"] = {
+			},
+			["Kurzen Jungle Fighter"] = {
+			},
+			["Stranglethorn Tigress"] = {
+			},
+			["Turida Coldwind"] = {
+			},
+			["Bulkrek Ragefist"] = {
+			},
+			["Brakkar"] = {
+			},
+			["Bat Handler Adeline"] = {
+			},
+			["Daggerspine Shorestalker"] = {
+			},
+			["Nyse"] = {
+			},
+			["Harpax"] = {
+			},
+			["Syndicate Footpad"] = {
+			},
+			["Mine Assaulted"] = {
+				["quest"] = true,
+			},
+			["Lumber Mill Assaulted"] = {
+				["quest"] = true,
+			},
+			["Daggerspine Screamer"] = {
+			},
+			["Thysta"] = {
+			},
+			["Krexcil"] = {
+			},
+			["Warmage Adami"] = {
+			},
+			["Syndicate Magus"] = {
+			},
+			["Du'ga"] = {
+			},
+			["Skizzle Slickslide"] = {
+			},
+			["Syndicate Thief"] = {
+			},
+			["Aedan Moran"] = {
+			},
+			["Highland Fleshstalker"] = {
+			},
+			["Numo Spiritbreeze"] = {
+			},
+			["Apothecary Lydon"] = {
+			},
+			["Aludane Whitecloud"] = {
+			},
+			["Celea Frozenmane"] = {
+			},
+			["Cid Flounderfix"] = {
+			},
+			["Greater Kraul Bat"] = {
+			},
+			["Danica Saint"] = {
+			},
+			["Drek'Gol"] = {
+			},
+			["Sky-Master Maxxor"] = {
+			},
+			["Stable Assaulted"] = {
+				["quest"] = true,
+			},
+		},
+		["item"] = {
+			["Arathi Basin Mark of Honor"] = {
+				["id"] = 20559,
+			},
+			["Green Hills of Stranglethorn - Chapter IV"] = {
+				["quest"] = true,
+			},
+			["Tiger Meat"] = {
+				["id"] = 12202,
+				["opened"] = 1,
+			},
+			["Daggerspine Scale"] = {
+				["quest"] = true,
+			},
+			["Wool Bandage"] = {
+				["id"] = 3530,
+			},
+			["Curved Raptor Talon"] = {
+				["drop"] = {
+					["Stranglethorn Raptor"] = 2,
+				},
+			},
+			["Pristine Tigress Fang"] = {
+				["quest"] = true,
+			},
+			["Large Glimmering Shard"] = {
+				["id"] = 11084,
+			},
+			["Sigil of Strom"] = {
+				["quest"] = true,
+			},
+			["Panther Cage Key"] = {
+				["id"] = 12942,
+			},
+			["Gift of Naias"] = {
+				["id"] = 23680,
+			},
+			["Silver Rod"] = {
+				["id"] = 6338,
+			},
+			["Green Hills of Stranglethorn - Chapter II"] = {
+				["quest"] = true,
+			},
+			["Lesser Mana Potion"] = {
+				["id"] = 3385,
+			},
+			["Small Glowing Shard"] = {
+				["id"] = 11138,
+			},
+			["Raptor Egg"] = {
+				["id"] = 3685,
+				["drop"] = {
+					["Stranglethorn Raptor"] = 4,
+				},
+			},
+			["Shrunken Head"] = {
+				["quest"] = true,
+			},
+			["Encrusted Tail Fin"] = {
+				["quest"] = true,
+				["id"] = 5796,
+			},
+			["Green Hills of Stranglethorn - Chapter I"] = {
+				["quest"] = true,
+			},
+			["The Scarlet Key"] = {
+				["id"] = 7146,
+				["pos"] = {
+					{
+						43, -- [1]
+						0.8534923289870676, -- [2]
+						0.3232975338948748, -- [3]
+						1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Greater Healing Potion"] = {
+				["id"] = 1710,
+			},
+			["Syndicate Missive"] = {
+				["quest"] = true,
+			},
+			["Shadowmaw Claw"] = {
+				["quest"] = true,
+			},
+			["Mageweave Cloth"] = {
+				["id"] = 4338,
+			},
+			["Raptor Heart"] = {
+				["quest"] = true,
+			},
+			["Shiny Fish Scales"] = {
+				["id"] = 17057,
+				["drop"] = {
+					["Saltscale Forager"] = 2,
+					["Saltscale Hunter"] = 1,
+				},
+			},
+			["Raptor Hide"] = {
+				["drop"] = {
+					["Stranglethorn Raptor"] = 2,
+				},
+			},
+			["Sweet Nectar"] = {
+				["id"] = 1708,
+			},
+			["Dog Training Gloves"] = {
+				["id"] = 7756,
+			},
+			["Hypercapacitor Gizmo"] = {
+				["quest"] = true,
+			},
+			["Razor Arrow"] = {
+				["id"] = 3030,
+			},
+			["Silk Cloth"] = {
+				["id"] = 4306,
+				["drop"] = {
+					["Scarlet Chaplain"] = 3,
+				},
+			},
+			["Torn Fin Eye"] = {
+				["id"] = 3510,
+				["quest"] = true,
+			},
+			["Tablet Shard"] = {
+				["quest"] = true,
+			},
+			["Squishy Basilisk Eye"] = {
+				["drop"] = {
+					["Crystal Spine Basilisk"] = 1,
+				},
+			},
+			["Fizzle Brassbolts' Letter"] = {
+				["id"] = 5827,
+			},
+			["money"] = {
+				["drop"] = {
+					["Scarlet Chaplain"] = 624,
+					["Scarlet Diviner"] = 441,
+					["Arcanist Doan"] = 503,
+					["Saltscale Hunter"] = 833,
+					["Saltscale Warrior"] = 512,
+					["Saltscale Forager"] = 345,
+				},
+			},
+			["Fish Oil"] = {
+				["id"] = 17058,
+				["drop"] = {
+					["Saltscale Forager"] = 2,
+				},
+			},
+			["Hearthstone"] = {
+				["id"] = 6948,
+			},
+			["Kravel's Parts"] = {
+				["id"] = 5800,
+			},
+			["Green Hills of Stranglethorn - Chapter III"] = {
+				["quest"] = true,
+			},
+			["Greater Astral Essence"] = {
+				["id"] = 11082,
+			},
+			["Green Hills of Stranglethorn - Page 4"] = {
+				["quest"] = true,
+			},
+			["Lesser Mystic Essence"] = {
+				["id"] = 11134,
+			},
+			["Green Hills of Stranglethorn - Page 1"] = {
+				["id"] = 2725,
+				["quest"] = true,
+			},
+			["Hypnotic Blade"] = {
+				["drop"] = {
+					["Arcanist Doan"] = 1,
+				},
+			},
+			["Mantle of Doan"] = {
+				["drop"] = {
+					["Arcanist Doan"] = 1,
+				},
+			},
+			["Stormwind Brie"] = {
+				["contained"] = {
+					["Tiger Meat"] = 1,
+				},
+				["drop"] = {
+					["Scarlet Diviner"] = 1,
+				},
+			},
+			["Heart of Naias"] = {
+				["quest"] = true,
+			},
+			["Soul Dust"] = {
+				["id"] = 11083,
+			},
+			["Whipwood Recurve Bow"] = {
+				["id"] = 3037,
+				["drop"] = {
+					["Scarlet Diviner"] = 2,
+				},
+			},
+			["Head of Baron Vardus"] = {
+				["quest"] = true,
+			},
+			["Paw of Sin'Dall"] = {
+				["quest"] = true,
+			},
+			["Tundra Necklace of Agility"] = {
+				["contained"] = {
+					["Tiger Meat"] = 1,
+				},
+				["id"] = 12039,
+			},
+			["Large Fang"] = {
+				["drop"] = {
+					["Stranglethorn Raptor"] = 1,
+				},
+			},
+			["Green Hills of Stranglethorn - Page 6"] = {
+				["quest"] = true,
+			},
+			["Raw Rockscale Cod"] = {
+				["id"] = 6362,
+				["drop"] = {
+					["Saltscale Warrior"] = 1,
+				},
+			},
+			["Raptor Flesh"] = {
+				["id"] = 12184,
+			},
+			["Green Hills of Stranglethorn - Page 8"] = {
+				["quest"] = true,
+			},
+			["Lesser Magic Essence"] = {
+				["id"] = 10938,
+			},
+			["Strong Troll's Blood Elixir"] = {
+				["quest"] = true,
+			},
+			["Scouting Gloves of the Monkey"] = {
+				["id"] = 6586,
+			},
+			["Curved Basilisk Claw"] = {
+				["drop"] = {
+					["Crystal Spine Basilisk"] = 1,
+				},
+			},
+			["Wild Hog Shank"] = {
+				["id"] = 3771,
+			},
+			["Kraul Guano"] = {
+				["quest"] = true,
+			},
+		},
+	},
+}
+QuestHelper_FlightInstructors = {
+	["0.70 on 3.0.9"] = {
+	},
+}
+QuestHelper_FlightRoutes = {
+	["0.70 on 3.0.9"] = {
+	},
+}
+QuestHelper_Pref = {
+	["track"] = true,
+	["filter_zone"] = false,
+	["scale"] = 1,
+	["comm"] = false,
+	["locale"] = "enUS",
+	["track_level"] = true,
+	["hide"] = false,
+	["show_ants"] = true,
+	["track_size"] = 8,
+	["perf_scale"] = 1,
+	["level"] = 2,
+	["map_button"] = true,
+	["solo"] = false,
+	["filter_level"] = true,
+	["filter_blocked"] = false,
+	["track_minimized"] = false,
+	["cart_wp"] = true,
+	["track_qcolour"] = true,
+	["tomtom_wp"] = true,
+	["tooltip"] = true,
+	["share"] = true,
+	["filter_watched"] = false,
+	["track_ocolour"] = true,
+	["filter_done"] = false,
+	["flight_time"] = true,
+	["track_scale"] = 1,
+}
+QuestHelper_UID = "po3PNGw4HPxRaJPtUVJl2PYlSO8neslE"
+QuestHelper_SaveDate = 1236924927
+QuestHelper_SeenRealms = {
+	["Frostmourne"] = true,
+}
+QuestHelper_Errors = {
+	["crashes"] = {
+	},
+}
+QuestHelper_Collector = {
+	["0.70 on 3.0.9"] = {
+		["traveled"] = {
+			["compressing"] = {
+			},
+			["done"] = {
+				"\000m¢-≤Òù\000tàÇ–¨0ﬂe£íYï4jjeŒë[®@¢œ;‘M%\"ÎÔZ¿!&“Ñ#<ëU:R««}\nçI√ËµfªÙWsAÅ\\1#W4veR2ÂÄ”Vı•Qkmt?#OU\\áâÜãi$àY`zM)?(d4îúTï\rç.îop{îxÇRqâê¨-yy~hlisC∑∫;∂og•√µ0¡∆æç«;ùr^—ìRX“≥Ão÷_ywI≥T¶∞†ß“hÊlJ6I¶sœUòÈhj[\r±œ=·1-o!˚Q≥iò\nhN¯ª`∞S–9µo!÷Mf π]QF ÍàkLÙ}zõ◊å∑ÈTâ>!bQ”äV∫z2”“u‰≠`}»îB(∏AV#\rJH!íï0|OûD˙\"J∆(*:$´C∑cåX≤’∫ú≥ﬂàÑ⁄Ã•õAf∂õeOm∂Z.õïŒWuªC-˜ë(]x∏•›nGB F»oGñº%X∂ä96Õ<‚Y5¬¶mÖ÷$H¿ñ∫∞öÎhc´‘≥	)˝?@Ïl©ˆ…2ﬁµ•¨‡â˜\\nd[∏IYêµi√Øxín1ñA®ìçÛÃ<!˛1Åv•‰◊±ﬁ‡vF∫“∏⁄§_[©õ ƒê%+hGqn0ÕÛ¬Å”µZìKâ«ƒÂzç˜¨èVGôÀm¢À≥(…#Å ›\n x<oÑÂ€0Ä‡Caÿ√3¢8”BNax9bürÕ∂#¬—Phœb\"5\"ÑÉ Gò£Yˇ…ÉBr›«**(Å¡iùQNu»*è¡∆%Ï%‚c†≠!ö\"]Ç«¡R~† RFk·FÃ~\n»*\n∆±¡‡W[‘˙Ä∏Ëﬂëè¿<ﬁNúXJ'r§àLSÜ†ägX $©¯£À\000£sÄƒ¡?ë¶’·cß§X%:ôIE∆4î∞]öà xqå(KcEH1[h8Ê:⁄∑@——·r\000¿tél\n“~©Á/4ûRæ√z◊ıÓVMπr/¥â	\000›≤°ë¥'“:y¶Ü„òBÇkî—ñîÖà÷êwç1ÜzyØÑbâ&¥Ü7*¢ösº¶	≤BÆ§∑•oTçCr’∂0º+S“·‘Éî/Ù.∆@g¨hŒ£¨‚w3±Ö§wæœ4Ö/¥-eVIÀ⁄LÀãkÊL±Ÿª±r∫VÜê¸-+ﬁ¸œ≤eª∞,©áÃKÁ&LÄº%¡Ù˙Sx—ñûœ[Í¨’ƒfñÏ©qêô8\rh&äøT:B˜7`u\n4h0	Ä", -- [1]
+				"\000D¥38`ë !¡j·¨#.oêqò\"XÛ@íH◊FÀ ≠5∞∑K“\nÆwÍ‰)n˘ƒÕ 2Ñ≤;π•Oö‚[ÿ§j%@ÖrI4ËC>ú3)F∫πë`ë@", -- [2]
+				"\000Üç:m≤∏\0002`%1ñêÜq„>}xÄVT'ô#ïN© ôZË“›≥Ÿ>9Úœ9v˝…q	FDlñÛë	 r¿á'ñF5±ó#åØv÷+Û\"aô¢&|Ÿ'<£JvåΩyÔD±ÚQÈ2Î\n", -- [3]
+			},
+			["working"] = {
+				["prefix"] = "\000ò≈\000ÔI\000\000",
+			},
+		},
+		["realms"] = {
+			["Frostmourne"] = 1,
+		},
+		["zone"] = {
+			["enUS"] = {
+				["Scarlet Monastery@@Scarlet Monastery@@Gallery of Treasures"] = {
+					["mapname"] = "Azeroth",
+					["border"] = {
+						"Ä\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+					},
+					["update"] = {
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄ", -- [2]
+					},
+				},
+				["Tirisfal Glades@@Tirisfal Glades@@"] = {
+					["mapname"] = "Tirisfal",
+					["border"] = {
+						"\000ß1∫’í", -- [1]
+					},
+					["update"] = {
+						"\000Üç:m≤∏\000\000Üç:m≤∏\000\000Üç:m≤∏\000\000Üç:m≤∏\000", -- [1]
+						"\000Üç:m≤∏\000\000Üç:m≤∏\000", -- [2]
+						"\000\"Ö:Ωò∏\000", -- [3]
+					},
+				},
+				["Stranglethorn Vale@@Stranglethorn Vale@@The Savage Coast"] = {
+					["mapname"] = "Stranglethorn",
+					["border"] = {
+						"\000Pù,°ú\000ú(È[ô", -- [1]
+						"\000)í‹ó", -- [2]
+					},
+					["update"] = {
+						"\000ªj+iœõ\0000+2Éõ\000\r+ì¶õ\000\r+ì¶õ\000\\˚*è0õ\000†(Îíò\000Øˆ'§Fò\000ü∑'	ò", -- [1]
+						"\0002ò&ñòó\000Ç{&töó\000#!'Æ®ó\000p(∆ò", -- [2]
+						"\0006ﬁ(qÈó", -- [3]
+					},
+				},
+				["Scarlet Monastery@@Scarlet Monastery@@Huntsman's Cloister"] = {
+					["mapname"] = "Azeroth",
+					["border"] = {
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄ", -- [2]
+					},
+					["update"] = {
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+					},
+				},
+				["Stranglethorn Vale@@Stranglethorn Vale@@Nesingwary's Expedition"] = {
+					["mapname"] = "Stranglethorn",
+					["border"] = {
+						"\000ˇ8/ù¸ë\000™>2Xí", -- [1]
+					},
+					["update"] = {
+						"\000ê\\/Âí\000¡0iví\000ã1y¶í\000ı1t°í\000‘ÿ0¢Ÿí\000ê≈0.™í\000ê≈0.™í\000ê≈0.™í\000ê≈0.™í\000ê≈0.™í\000ê≈0.™í\000{π0†í\000{π0†í\000)µ0p™í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000~©0¬¢í\000B™0…¶í\000B™0…¶í\000B™0…¶í\000B™0…¶í\000B™0…¶í\000À◊1`Tí", -- [1]
+						"\000ß1∫’í", -- [2]
+					},
+				},
+				["Orgrimmar@@Orgrimmar@@Valley of Strength"] = {
+					["mapname"] = "Ogrimmar",
+					["border"] = {
+						"\000ò≈\000ÔI\000\000", -- [1]
+					},
+					["update"] = {
+						"\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000\000ò≈\000ÔI\000", -- [1]
+						"\000ò≈\000ÔI\000\000ò≈\000ÔI\000", -- [2]
+					},
+				},
+				["Stranglethorn Vale@@Stranglethorn Vale@@The Vile Reef"] = {
+					["mapname"] = "Stranglethorn",
+					["border"] = {
+						"\000)*+Üö", -- [1]
+					},
+					["update"] = {
+						"\000ú*±{ö\000uk)iö\000¶)L	ö\000W◊(ºﬁô\000ÛÀ(‚ô\000wê(Ÿö\000ä(,cö\000yà(dö\000ã(.Aö\000√å(í6ö\000√å(í6ö\000†â(G8ö\000‘á(?∫ö\000pà(S¥ö\0002Å($Ùö\000©y(ß˘ö\000µ©(·Põ\000®(9fõ\000ûß(±‚õ\000€Ø(ç#ú\000ﬁÇ(\nú\000sa(#ú\000‘n(¢†ú\000≥à(i6ú\000êÇ(Pgú\000x(^|ú\000r(ôú\000†É(û¿ú\000ò8(…ù\000≈H(´ù\000≈H(´ù\000_P(Nù", -- [1]
+						"\000◊a(hﬂú\000\\ä( ’õ\000í(Ú¿ö\000 ô(¨ô", -- [2]
+					},
+				},
+				["Stranglethorn Vale@@Stranglethorn Vale@@Grom'gol Base Camp"] = {
+					["border"] = {
+						"\000m¢-≤Òù\000", -- [1]
+					},
+					["mapname"] = "Stranglethorn",
+				},
+				["Scarlet Monastery@@Scarlet Monastery@@Athenaeum"] = {
+					["mapname"] = "Kalimdor",
+					["border"] = {
+						"Ä\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+					},
+					["update"] = {
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [2]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [3]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [4]
+						"\000ò≈\000ÔI\000\000", -- [5]
+					},
+				},
+				["Scarlet Monastery@@Scarlet Monastery@@The Grand Vestibule"] = {
+					["border"] = {
+						"\000≈;xµ\000", -- [1]
+					},
+					["mapname"] = "Azeroth",
+				},
+				["Scarlet Monastery@@Scarlet Monastery@@"] = {
+					["mapname"] = "Azeroth",
+					["border"] = {
+						"\000gﬁ:å0∂\000\000¡<€µ\000Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [2]
+					},
+					["update"] = {
+						"\000Xs;Àôµ\000Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [1]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄÄ\000\000\000Ä\000\000\000ÄÄÄ", -- [2]
+						"Ä\000\000\000Ä\000\000\000ÄÄÄ", -- [3]
+					},
+				},
+				["Stranglethorn Vale@@Stranglethorn Vale@@"] = {
+					["mapname"] = "Stranglethorn",
+					["border"] = {
+						"\000ûz-ﬁËú\000·\n)MŸó\000ﬂ).Ÿó\000D¥38`ë", -- [1]
+					},
+					["update"] = {
+						"\000˚s-E—ú\000-Ù(Îüó\000Æô)äñó\000ô)L˝ñ\000'0)^ó\000¨))Õñ\000Â#)Ñçñ\000Œ8)¥eñ\000r	)1eñ\000r	)1eñ\000‚÷(Kñ\000;ç( \"ñ\000√Z(t„ï\000¢÷'1Nñ\000\rÆ'	âñ\000Àd'ƒ.ñ\000ã÷&\rÌï\000©É&€ßï\000©É&€ßï\000Ñ&\"≠ï\000´v&\r˛ï\000åÄ&(¡ï\000Ï&Ç#ñ\000Ëˇ%ñ\000`z&”˜ï\000ØÃ&\\Êï\000“&„ï\000“&„ï\000“&„ï\000“&„ï\000“&„ï\000“&„ï", -- [1]
+						"\000“&„ï\000“&„ï\00019'eﬁï\0003)Ô•î\000gΩ*àÂí\000‚-d%í\000D¥38`ë\000Ã°3öèë", -- [2]
+					},
+				},
+				["Tirisfal Glades@@Tirisfal Glades@@Whispering Gardens"] = {
+					["mapname"] = "Tirisfal",
+					["border"] = {
+						"\000Â:·~∑\000", -- [1]
+					},
+					["update"] = {
+						"\000∂Ë:Î]∑\000", -- [1]
+					},
+				},
+			},
+		},
+	},
+}
+QuestHelper_Collector_Version = 2

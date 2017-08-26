@@ -1,0 +1,134 @@
+MACRO 31 "9696" Spell_Holy_Vindication
+#showtooltip
+/castsequence [nocombat] reset=5/combat/target Avenger's Shield
+/castsequence reset=combat Holy Shield,,Consecration,,Judgement of Wisdom,
+/castsequence reset=combat ,Hammer of Righteous,,Shield of Righteousness
+END
+MACRO 32 "969696" Ability_Creature_Cursed_02
+/castsequence reset=9 Holy Shield,Hammer of the Righteous,Judgement of wisdom,shield of righteousness,Consecration,Hammer of the Righteous,Holy Shield,shield of righteousness,Judgement of wisdom,Hammer of the Righteous,Consecration,shield of righteousness
+END
+MACRO 28 "Avoidance Macro" Ability_Creature_Cursed_05
+/script DEFAULT_CHAT_FRAME:AddMessage("Need 102.4 combined avoidance. Currently at:",0.8,0.8,1)
+/script DEFAULT_CHAT_FRAME:AddMessage(GetDodgeChance()+GetBlockChance() + GetParryChance() +5+(GetCombatRatingBonus(CR_DEFENSE_SKILL) + 20)*0.04,1,0.5,0)
+END
+MACRO 22 "beacy!" Ability_Mage_LivingBomb
+/target Thebulk
+/cast Beacon of Light(Rank 1)
+END
+MACRO 4 "Bhag" Ability_Ambush
+/target Bhag'Thera
+END
+MACRO 21 "BULK!!" Ability_Mage_FireStarter
+/target TheBulk
+/cast Holy Shock(Rank 5)
+END
+MACRO 30 "Chase" Ability_Defend
+/target chaseswar
+/cast Hand of Sacrifice
+/cast divine shield
+END
+MACRO 14 "CORE!!!" Ability_Creature_Cursed_04
+/use Tainted Core
+/y <----- TAINTED CORE THROWN TO: %t !!!
+/s <----- TAINTED CORE THROWN TO: %t !!!
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
+/use Tainted Core 
+END
+MACRO 8 "corrupt" Ability_Shaman_WaterShield
+/target Corrupted Lightning Totem
+END
+MACRO 29 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Cleanse;  [target=mouseover,exists,mod:ctrl] Cleanse; [target=mouseover,exists,mod:shift] Cleanse
+END
+MACRO 2 "DEMON" Ability_BackStab
+/target demon chain
+END
+MACRO 20 "DI" Spell_Holy_DivineIntervention
+/target Odysseuss
+/cast Divine Intervention
+END
+MACRO 10 "Gruul" Ability_Ambush
+/raid Tank / Healing
+/raid Tahumm {diamond} / Unable & Pym
+/raid Huntercharlz {cross} / saint
+/raid Sterren {Skull) / Holyavery
+/raid 
+END
+MACRO 1 "Guild Chat" Ability_Hunter_Pathfinding
+/guild
+END
+MACRO 24 "healing" Ability_Ambush
+/raid  Osyris  -   Mooloo
+/raid  Necrisn  -  Regency and Brockus
+/raid  kehlana   -  Frosten
+/raid  Sekzualhealn   -  torvald
+/raid  Fatal and Cero - raid
+END
+MACRO 6 "MEGAIDS" Ability_DualWield
+/assist megabull
+END
+MACRO 15 "mil" INV_Misc_QuestionMark
+/target millhouse
+END
+MACRO 11 "naj" Ability_BackStab
+/target high warlord naj'entus
+/use naj'entus spine
+END
+MACRO 13 "NOT A PALI!!!!" Spell_Holy_HolyBolt
+/rw YOUR NOT ON YOUR FUCKING PALI!
+END
+MACRO 9 "poke" Ability_BackStab
+/e touches you  sexually...
+/e notices you rubbing yourself in delight...
+/e wonders if you can keep a secret?
+END
+MACRO 25 "Save!" Ability_Paladin_GaurdedbytheLight
+/tar tygorl
+/castsequence Divine Shield, Hand of Sacrifive
+END
+MACRO 23 "SAVE!" Ability_Mage_HotStreak
+/target osyris
+/cast Holy Shock(Rank 5)
+END
+MACRO 27 "Selling " INV_Misc_QuestionMark
+/w warrior 
+END
+MACRO 17 "Shit Cunt" Ability_CheapShot
+/s ***Shit Cunt Meter***
+/s  Poseido (100%)
+END
+MACRO 16 "Shoot" Ability_Hunter_MasterMarksman
+#Showtooltip Auto Shot
+/cast !Auto Shot
+/cast [target=pettarget, exists] Kill Command
+/cast Steady Shot
+/script UIErrorsFrame:Clear()
+END
+MACRO 7 "shoulders" Ability_Ambush
+/whisper Ninjaah Pauldrons of Primal Fury Pauldrons of Primal Fury Pauldrons of Primal Fury
+END
+MACRO 3 "skull" Ability_Druid_Maul
+/target {skull}
+END
+MACRO 26 "STORM" Ability_Creature_Cursed_04
+/yell COLLAPSE
+/rw COLLAPSE
+END
+MACRO 19 "Teddy bears..." INV_Misc_QuestionMark
+/w Kehlana Teddy Bears...
+/w Daigoth Teddy Bears...
+/w Drinsta Teddy Bears...
+/w Spud Teddy Bears...
+/w Amusement Teddy Bears...
+/w Glathier Teddy Bears...
+END
+MACRO 12 "tempest" Ability_Ambush
+/target    
+END
+MACRO 18 "vent" Ability_Ambush
+/raid VENT DETAILS
+END
+MACRO 5 "Warn" Ability_Creature_Cursed_04
+/rw Zone
+END

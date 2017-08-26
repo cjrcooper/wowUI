@@ -1,0 +1,13 @@
+HealBot_Tips: disabled
+HealBot_tw: disabled
+HealBot_cn: disabled
+HealBot_br: disabled
+HealBot_fr: disabled
+HealBot_de: disabled
+HealBot_hu: disabled
+HealBot_gr: disabled
+HealBot_it: disabled
+HealBot_kr: disabled
+HealBot_es: disabled
+HealBot_ru: disabled
+AtlasLoot_Loader: enabled

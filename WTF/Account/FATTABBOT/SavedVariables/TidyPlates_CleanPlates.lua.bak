@@ -1,0 +1,10 @@
+
+CPDB = {
+	["profileKeys"] = {
+		["Odysseuss - Frostmourne"] = "Odysseuss - Frostmourne",
+	},
+	["profiles"] = {
+		["Odysseuss - Frostmourne"] = {
+		},
+	},
+}

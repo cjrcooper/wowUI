@@ -1,0 +1,79 @@
+VER 3 0100000000000001 " " "Spell_Holy_DivineIntervention"
+#showtooltip  Divine Shield
+/cancelaura Divine Shield 
+/cast Divine Shield
+END
+VER 3 0100000000000014 " " "135880"
+#showtooltip
+/cancelaura Blessing of Spellwarding
+/cast Blessing of Spellwarding
+END
+VER 3 0100000000000013 " " "524354"
+#showtooltip
+/cancelaura Divine Shield
+/cast Divine Shield
+END
+VER 3 0100000000000015 " " "1396447"
+#showtooltip
+#showIcon
+/use 13
+END
+VER 3 010000000000000C "    " "INV_Misc_QuestionMark"
+/use Impetuous Query
+/use Figurine - Earthen Guardian
+END
+VER 3 0100000000000005 "     " "Spell_Holy_ArdentDefender"
+#showtooltip Ardent Defender
+/Cast Ardent Defender
+/S >>>AD is Up<<<
+/in 9 /S >>>AD is Down<<<
+END
+VER 3 010000000000000E "       " "Spell_Holy_Restoration"
+#showtooltip Divine Protection
+/Cast Divine Protection
+/S >>>SW is Up<<<
+/in 9 /s >>>SW is Down<<<
+END
+VER 3 010000000000000F "                " "Spell_Holy_Power"
+/use Horn of Valor
+/cast Seraphim
+/use Potion of Prolonged Power
+/cast Avenging Wrath
+END
+VER 3 0100000000000010 "DBM PULL 10" "Spell_Holy_Dizzy"
+/dbm pull 10
+END
+VER 3 0100000000000008 "Divine Plea" "Spell_Frost_IceShock"
+/cast Divine Plea
+/Yell "I'm PLeading For Mana!!!!!
+END
+VER 3 010000000000000B "LFG" "Ability_Creature_Disease_02"
+/1 LF TANK H COS TIMED
+END
+VER 3 0100000000000002 "Lighttainted" "Ability_BullRush"
+/target Sacrolash
+/Cast Judgement of Light
+END
+VER 3 0100000000000011 "Oh fuck" "Spell_Misc_HellifrePVPCombatMorale"
+/USE Impetuous Query
+/S TWIRLING, TWIRLING, TWIRLING TOWARDS FREEDOM
+END
+VER 3 0100000000000012 "R" "Spell_Holy_PrayerOfHealing"
+#showtooltip Repentance 
+/cast [nomodifier] Repentance 
+/cast [modifier:shift,target=focus] Repentance 
+END
+VER 3 0100000000000007 "Sacrifice" "135966"
+#showtooltip Hand of Sacrifice
+/use [@mouseover,help,nodead][help,nodead][@player] Hand of Sacrifice
+END
+VER 3 010000000000000A "tainted" "Ability_Druid_Cyclone"
+/use Tainted Core 
+/y <------- TAINTED CORE TO: %t!!! 
+/s <------- TAINTED CORE TO: %t!!! 
+/run local t="target" if (UnitName(t)~=nil) then SendChatMessage("You have the core.","WHISPER",nil,UnitName(t)) end 
+END
+VER 3 0100000000000009 "Variss" "135874"
+/target Inquisitor Variss
+/cast avenger's shield
+END

@@ -1,0 +1,35 @@
+
+SkinnerDB = {
+	["namespaces"] = {
+		["ViewPort"] = {
+			["profiles"] = {
+				["Default"] = {
+					["bottom"] = 151,
+					["shown"] = true,
+					["right"] = 0,
+					["left"] = 0,
+					["top"] = 54,
+				},
+			},
+		},
+		["MiddleFrames"] = {
+		},
+		["TopFrame"] = {
+		},
+		["UIButtons"] = {
+		},
+		["BottomFrame"] = {
+		},
+		["UnitFrames"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Odysseuss - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["BdDefault"] = false,
+			["BdTexture"] = "Blizzard Parchment",
+		},
+	},
+}

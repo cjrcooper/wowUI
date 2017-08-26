@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["Chivallry_Frostmourne::Horde"] = 33139170,
+	["VIEWALL"] = true,
+	["INITIALIZED"] = true,
+}

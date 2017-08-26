@@ -1,0 +1,5 @@
+SET minimapInsideZoom "0"
+SET cameraSavedDistance "29.000408"
+SET cameraSavedPitch "64.450000"
+SET playerStatLeftDropdown "PLAYERSTAT_BASE_STATS"
+SET playerStatRightDropdown "PLAYERSTAT_SPELL_COMBAT"

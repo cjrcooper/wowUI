@@ -1,0 +1,42 @@
+MACRO 16777217 "Arcane Explosion" Spell_Holy_ImprovedResistanceAuras
+#showtooltip Arcane Explosion
+/cast [nocombat] Arcane Explosion(Rank 1); Arcane Explosion
+END
+MACRO 16777218 "Arcane Rotation" Ability_Mage_ShatterShield
+/castsequence reset=battle Arcane Blast, Arcane Blast, Arcane Blast, Arcane Blast, Arcane Missiles, 
+END
+MACRO 16777219 "Counterspell" Spell_Frost_IceShock
+#showtooltip Counterspell
+/stopcasting
+/cast [target=focus, exists,harm] Counterspell
+/cast [target=mouseover,harm] Counterspell;Counterspell
+END
+MACRO 16777222 "Eating and Drink" Ability_Creature_Cursed_02
+/use Conjured Glacier Water
+/use Conjured Croissant
+END
+MACRO 16777221 "Elemental" Spell_Frost_SummonWaterElemental_2
+/cast [nopet] Summon Water Elemental
+/stopmacro [nopet]
+/petpassive
+/click PetActionButton5
+/petattack
+END
+MACRO 16777224 "Fire DPS" Spell_Fire_Burnout
+/castsequence reset=target/battle Living Bomb, scorch, scorch,  Fire Blast, scorch, scorch, scorch
+END
+MACRO 16777225 "Fire phase 2" Spell_Fire_MoltenBlood
+/castsequence reset=target/battle scorch, fire blast, fireball, fireball, fireball, fire blast, fireball, fireball, fireball
+END
+MACRO 16777226 "Horse" INV_Misc_QuestionMark
+/cast horn of winter
+/castrandom [nocombat] Acherus Deathcharger
+END
+MACRO 16777220 "Ice Lance" Spell_Frost_ChillingBlast
+#showtooltip Ice Lance
+/stopcasting
+/cast Ice Lance
+END
+MACRO 16777223 "Polymorph" Spell_Nature_Polymorph
+/cast [target=focus, exists,harm] Polymorph
+END

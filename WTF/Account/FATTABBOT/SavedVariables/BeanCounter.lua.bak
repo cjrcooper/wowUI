@@ -1,0 +1,37 @@
+
+BeanCounterDB = {
+	["Frostmourne"] = {
+		["Odybank"] = {
+			["vendorsell"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 324980,
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["version"] = 2.09,
+			["faction"] = "Horde",
+			["postedBids"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedBids/Buyouts"] = {
+			},
+			["mailbox"] = {
+			},
+		},
+	},
+	["ItemIDArray"] = {
+	},
+	["settings"] = {
+		["profile.Default"] = {
+			["configator.left"] = 111.9999678134923,
+			["configator.top"] = 608.9999680370097,
+		},
+	},
+}
+BeanCounterAccountDB = nil

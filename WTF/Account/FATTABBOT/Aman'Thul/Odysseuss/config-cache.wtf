@@ -1,0 +1,5 @@
+SET minimapInsideZoom "0"
+SET cameraSavedDistance "8.996399"
+SET cameraSavedPitch "25.300148"
+SET playerStatLeftDropdown "PLAYERSTAT_BASE_STATS"
+SET playerStatRightDropdown "PLAYERSTAT_MELEE_COMBAT"

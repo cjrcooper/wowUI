@@ -1,0 +1,50 @@
+MACRO 1 "/target spitfire" Ability_Ambush
+/target spitfire
+END
+MACRO 11 "camera" Ability_Hunter_Pet_Scorpid
+END
+MACRO 9 "Counterspell" Spell_Arcane_TeleportIronForge
+/cast [mod:shift, target=focus] Counterspell; Counterspell
+END
+MACRO 10 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Polymorph; [target=mouseover,exists,mod:shift] Remove Curse
+END
+MACRO 7 "emotes" Ability_Druid_LunarGuidance
+/spit
+/slap
+/insult
+/violin
+/ponder
+/shoo
+/bored
+/doom
+/laugh
+/sorry
+/rofl
+/mourn
+/spit
+END
+MACRO 3 "halazzi" Ability_BackStab
+/tar cor
+END
+MACRO 12 "Heart/spark" Ability_Creature_Cursed_02
+/tar Heart
+/tar Sparka
+END
+MACRO 4 "Ilhoof" Ability_BullRush
+/tar demo
+END
+MACRO 6 "stealth" Ability_Creature_Disease_05
+/cleartarget
+/targetenemy
+/cast fireball
+END
+MACRO 2 "Trinkets" Ability_Creature_Cursed_04
+/use Icon of the Silver Crescent                                          
+/use Pendant of the Violet Eye
+END
+MACRO 5 "Vashj core" Ability_CheapShot
+/use [Target=Target,help] Tainted core
+/y ---> passing to %t 
+END

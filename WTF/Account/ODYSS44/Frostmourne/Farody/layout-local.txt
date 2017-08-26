@@ -1,0 +1,15 @@
+Version: 1
+Frame: ChatFrame2
+FrameLevel: 5
+Anchor: BOTTOMLEFT
+X: 32
+Y: 135
+W: 430
+H: 96
+Frame: GladiusFrame
+FrameLevel: 1
+Anchor: TOP
+X: 170
+Y: -55
+W: 205
+H: 307

@@ -1,0 +1,15 @@
+
+SCCN_storage = {
+	["odybank"] = {
+		["t"] = 1244738367,
+		["c"] = 9,
+		["l"] = 1,
+	},
+	["mdnght"] = {
+		["t"] = 1244738363,
+		["c"] = 6,
+		["l"] = 34,
+	},
+}
+SCCNScrollDown_Y = 0
+SCCNScrollDown_X = 0

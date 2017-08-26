@@ -1,0 +1,15 @@
+Version: 1
+Frame: MinimapCluster
+FrameLevel: 0
+Anchor: TOPRIGHT
+X: 3
+Y: -43
+W: 192
+H: 192
+Frame: DBMMinimapButton
+FrameLevel: 2
+Anchor: TOPRIGHT
+X: -133
+Y: -158
+W: 32
+H: 32

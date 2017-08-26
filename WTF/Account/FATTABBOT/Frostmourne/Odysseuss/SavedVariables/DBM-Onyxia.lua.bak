@@ -1,0 +1,21 @@
+
+DBMOnyxia_SavedVars = {
+	["Onyxia"] = {
+		["Enabled"] = true,
+		["SoundBreath"] = true,
+		["WarnWhelpsSoon"] = true,
+		["TimerBreath"] = true,
+		["HealthFrame"] = false,
+		["SpecWarnBreath"] = true,
+		["Announce"] = false,
+		["TimerWhelps"] = true,
+	},
+}
+DBMOnyxia_SavedStats = {
+	["Onyxia"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+}

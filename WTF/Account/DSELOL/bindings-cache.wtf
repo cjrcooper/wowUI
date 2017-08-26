@@ -1,0 +1,4 @@
+bind G CLICK BT4Button16Secure:LeftButton
+bind V BONUSACTIONBUTTON1
+bind ALT-M CARTOGRAPHER_OPENALTERNATEMAP
+bind ` CLICK BT4Button18Secure:LeftButton

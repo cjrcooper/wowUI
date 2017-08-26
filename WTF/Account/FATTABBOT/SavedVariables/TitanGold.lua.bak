@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Odysseuss_Frostmourne::Horde"] = {
+		["show"] = true,
+		["name"] = "Odysseuss",
+		["gold"] = 29344157,
+	},
+}

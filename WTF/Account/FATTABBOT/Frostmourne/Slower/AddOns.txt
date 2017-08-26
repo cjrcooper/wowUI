@@ -1,0 +1,3 @@
+sct: enabled
+sct_options: enabled
+QuestHelper: enabled

@@ -1,0 +1,2 @@
+XPerl_TeamSpeak: disabled
+LibBabble-Class-3.0: enabled

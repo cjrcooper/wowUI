@@ -1,0 +1,8 @@
+Version: 1
+Frame: AtlasLootDefaultFrame
+FrameLevel: 15
+Anchor: RIGHT
+X: -78
+Y: 16
+W: 600
+H: 690

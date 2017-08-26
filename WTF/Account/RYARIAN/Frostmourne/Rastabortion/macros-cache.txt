@@ -1,0 +1,6 @@
+MACRO 16777218 "target" Ability_BackStab
+/tar bone
+END
+MACRO 16777217 "ursius" Ability_Ambush
+/tar ursius
+END

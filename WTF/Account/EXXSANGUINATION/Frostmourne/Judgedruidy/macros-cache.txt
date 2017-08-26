@@ -1,0 +1,9 @@
+VER 3 0100000000000002 "Displace Boomkin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence displacer beast, moonkin form
+END
+VER 3 0100000000000001 "Displacer Beast" "INV_MISC_QUESTIONMARK"
+#showtooltip Displacer Beast
+/cast Displacer Beast
+/cancelaura Cat Form
+END

@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["Darkilluzion_Frostmourne::Horde"] = 2057818210,
+	["VIEWALL"] = true,
+	["INITIALIZED"] = true,
+}

@@ -1,0 +1,2 @@
+XPerl_PartyPet: disabled
+XPerl_Party: disabled

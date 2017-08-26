@@ -1,0 +1,76 @@
+VER 3 000000000000000A " " "SPELL_HOLY_AVENGINEWRATH"
+#showtooltip Avenging Wrath
+/Cast Avenging Wrath
+/Use Talisman of Resurgence
+END
+VER 3 000000000000000C "  " "Spell_Holy_DivineIllumination"
+#showtooltip Divine Illumination
+/Use Divine Illumination
+/Use Figurine - Sapphire Owl
+END
+VER 3 0000000000000010 "    " "Spell_Arcane_Arcane04"
+#showtooltip Arcane Torrent
+/use Arcane Torrent
+/use Sliver of Pure Ice
+END
+VER 3 0000000000000001 "1" "Spell_Holy_SealOfProtection"
+/script local n=UnitName("hbmouseover");if GetSpellCooldown(Hand of Protection)==0 then SendChatMessage("Hand of Protection on "..n,"SAY") SendChatMessage("Let the Light Protect You!!","WHISPER",nil,n) end;
+/cast [target=hbmouseover] Hand of Protection
+END
+VER 3 0000000000000007 "Beacon" "Ability_Paladin_BeaconofLight"
+#showtooltip Beacon of Light
+/cast Beacon of Light
+/dbm timer Beacon of Light 60
+END
+VER 3 000000000000000B "Beacon heals" "Spell_Holy_Serendipity"
+/Target Valithria Dreamwalker
+/cast Beacon of Light
+END
+VER 3 000000000000000F "Decursive" "INV_Misc_QuestionMark"
+/script Dcr:Println('No spell available')
+END
+VER 3 0000000000000002 "ds" "INV_Misc_QuestionMark"
+/tar Deviate Fa
+END
+VER 3 0000000000000009 "Follow" "Ability_Hunter_BeastMastery"
+/tar Darkcloze
+/follow Darkcloze
+END
+VER 3 0000000000000004 "Freedom" "Spell_Holy_SealOfValor"
+/tar Odysseuss
+/Hand of Freedom
+END
+VER 3 0000000000000006 "go" "Ability_Creature_Cursed_03"
+/p GO
+END
+VER 3 0000000000000011 "Heals" "Spell_Holy_HolyBolt"
+/Target Pervett
+/Cast Holy Light
+END
+VER 3 0000000000000003 "osyris" "Ability_Creature_Cursed_03"
+/w Osyris SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SPAM SPAM SPAM SPAMSPAM SPAM SP
+END
+VER 3 000000000000000E "SADASDASDA" "Ability_Ambush"
+/1 
+END
+VER 3 0000000000000008 "salv" "Ability_Rogue_CheatDeath"
+#Show Tooltip Hand of Salvation
+END
+VER 3 000000000000000D "spit" "Ability_Creature_Disease_01"
+/tar vaahn
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+/spit
+END
+VER 3 0000000000000005 "ss" "Ability_Creature_Cursed_01"
+/rw Server: 203.46.105.46
+/rw Port: 22580
+/rw Password: tickle
+END
